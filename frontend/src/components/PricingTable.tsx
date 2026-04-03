@@ -22,6 +22,7 @@ function getDecimals(market: string): number {
 interface FlatRow {
   timestamp: string;
   slot: number | null;
+  tag: string;
   cells: Record<string, MarketValues>;
 }
 
@@ -31,7 +32,7 @@ function computeChangesOnly(rows: FlatRow[], marketKeys: string[]): FlatRow[] {
   for (let i = 1; i < rows.length; i++) {
     const prev = rows[i - 1];
     const cur = rows[i];
-    const sparse: FlatRow = { timestamp: cur.timestamp, slot: cur.slot !== prev.slot ? cur.slot : null, cells: {} };
+    const sparse: FlatRow = { timestamp: cur.timestamp, slot: cur.slot !== prev.slot ? cur.slot : null, tag: cur.tag, cells: {} };
     for (const mk of marketKeys) {
       const pc = prev.cells[mk] || {};
       const cc = cur.cells[mk] || {};
@@ -71,6 +72,7 @@ export function PricingTable({ rows, markets, loading, referenceTime, onRowClick
     rows.map(r => ({
       timestamp: r.timestamp,
       slot: r.slot,
+      tag: (r as any).tag || '',
       cells: r.values || {},
     })),
     [rows]
@@ -114,7 +116,7 @@ export function PricingTable({ rows, markets, loading, referenceTime, onRowClick
   const subHeaders = ['Bid Vol', 'Bid', 'Ask', 'Ask Vol', 'Trade'];
   const subWidths = [65, 80, 80, 65, 120];
 
-  const totalCols = 2 + visibleMarkets.length * subCols.length; // time + slot + markets
+  const totalCols = 3 + visibleMarkets.length * subCols.length; // time + slot + tag + markets
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
@@ -145,16 +147,19 @@ export function PricingTable({ rows, markets, loading, referenceTime, onRowClick
 
       <div ref={parentRef} style={{ overflow: 'auto', flex: 1, minHeight: 0 }}>
         <style>{`.pricing-row:hover { background: #1a2035 !important; }`}</style>
-        <table style={{ borderCollapse: 'collapse', fontSize: 11, width: 'max-content', minWidth: '100%' }}>
+        <table style={{ borderCollapse: 'collapse', fontSize: 11, tableLayout: 'fixed', width: (80 + 75 + 140 + visibleMarkets.length * subWidths.reduce((a, b) => a + b, 0)) }}>
           {/* Two-level header: market group + sub-columns */}
           <thead style={{ position: 'sticky', top: 0, zIndex: 2 }}>
             {/* Top header: Time, Slot, then market groups */}
             <tr>
-              <th rowSpan={2} style={{ ...styles.th, width: 80, minWidth: 80, borderRight: '1px solid #2d3548' }}>
+              <th rowSpan={2} style={{ ...styles.th, width: 80, minWidth: 80, borderRight: '1px solid #2d3548', position: 'sticky', left: 0, zIndex: 3, background: '#0d1117' }}>
                 {refMs != null ? 'Δ sec' : 'Time'}
               </th>
-              <th rowSpan={2} style={{ ...styles.th, width: 75, minWidth: 75, borderRight: '1px solid #2d3548' }}>
+              <th rowSpan={2} style={{ ...styles.th, width: 75, minWidth: 75, borderRight: '1px solid #2d3548', position: 'sticky', left: 80, zIndex: 3, background: '#0d1117' }}>
                 Slot
+              </th>
+              <th rowSpan={2} style={{ ...styles.th, width: 140, minWidth: 140, borderRight: '1px solid #2d3548' }}>
+                Tag
               </th>
               {visibleMarkets.map(m => (
                 <th
@@ -218,15 +223,19 @@ export function PricingTable({ rows, markets, loading, referenceTime, onRowClick
                   onClick={() => onRowClick?.(row.timestamp)}
                 >
                   {/* Time */}
-                  <td style={{ ...styles.td, borderRight: '1px solid #1a1f2e' }}>
+                  <td style={{ ...styles.td, width: 80, minWidth: 80, maxWidth: 80, borderRight: '1px solid #1a1f2e', overflow: 'hidden', position: 'sticky', left: 0, zIndex: 1, background: isSelected ? '#1e2a45' : '#0a0e17' }}>
                     {refMs != null
                       ? (() => { const d = (new Date(row.timestamp).getTime() - refMs) / 1000; return `${d >= 0 ? '+' : ''}${d.toFixed(3)}`; })()
                       : new Date(row.timestamp).toLocaleTimeString('en-GB', { hour12: false, fractionalSecondDigits: 3 as any })
                     }
                   </td>
                   {/* Slot */}
-                  <td style={{ ...styles.td, borderRight: '1px solid #1a1f2e' }}>
+                  <td style={{ ...styles.td, width: 75, minWidth: 75, maxWidth: 75, borderRight: '1px solid #1a1f2e', overflow: 'hidden', position: 'sticky', left: 80, zIndex: 1, background: isSelected ? '#1e2a45' : '#0a0e17' }}>
                     {row.slot ?? ''}
+                  </td>
+                  {/* Tag */}
+                  <td style={{ ...styles.td, width: 140, minWidth: 140, maxWidth: 140, borderRight: '1px solid #1a1f2e', overflow: 'hidden', color: '#60a5fa', fontSize: 10 }}>
+                    {row.tag}
                   </td>
                   {/* Market sub-columns */}
                   {visibleMarkets.map(m => {
@@ -253,7 +262,11 @@ export function PricingTable({ rows, markets, loading, referenceTime, onRowClick
                       return (
                         <td key={`${m.key}-${sc}`} style={{
                           ...styles.td,
+                          width: subWidths[si],
+                          minWidth: subWidths[si],
+                          maxWidth: subWidths[si],
                           textAlign: 'right',
+                          overflow: 'hidden',
                           borderRight: isLast ? '1px solid #1a1f2e' : undefined,
                         }}>
                           {content}

@@ -290,7 +290,7 @@ def get_pricing(
                     "key": theo_display_key,
                     "market": "THEO",
                     "pair": ev["pair"],
-                    "display": f"THEO ({strip_fee_suffix(ev['pair'])})",
+                    "display": format_market_display("THEO", ev['pair']),
                 }
                 markets.append(market_keys[theo_display_key])
             # Move theo values from the original market key to THEO key
@@ -325,7 +325,7 @@ def get_pricing(
                     "key": mk,
                     "market": "THEO",
                     "pair": ev["pair"],
-                    "display": f"THEO ({strip_fee_suffix(ev['pair'])})",
+                    "display": format_market_display("THEO", ev['pair']),
                 }
             cid_base = ev.get("cid_base")
             if cid_base:
@@ -373,6 +373,7 @@ def get_pricing(
             row: dict = {
                 "timestamp": ev["timestamp"],
                 "slot": slot_state2,
+                "tag": ev.get("tag", ""),
                 "values": {},
             }
             for m_key, ms in state2.items():
