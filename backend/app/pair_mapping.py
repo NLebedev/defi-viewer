@@ -11,6 +11,10 @@ TOKEN_EQUIVALENCES: dict[str, str] = {
     "WSOL": "SOL",
 }
 
+# Quote currencies that should NOT be used for matching
+# (we don't want RAY_USDT matching KMNO_USDT just because both have USDT)
+QUOTE_CURRENCIES = {"USDT", "USDC", "USDS", "DAI", "BUSD"}
+
 # Base asset -> Binance pair name
 _CEX_PAIR_MAP: dict[str, str] = {
     "RAY": "RAY_USDT",
@@ -83,11 +87,50 @@ def get_tokens(pair: str) -> set[str]:
     return tokens
 
 
+def _expand_token(token: str) -> set[str]:
+    """Expand a token with its equivalences."""
+    result = {token}
+    if token in TOKEN_EQUIVALENCES:
+        result.add(TOKEN_EQUIVALENCES[token])
+    for k, v in TOKEN_EQUIVALENCES.items():
+        if v == token:
+            result.add(k)
+    return result
+
+
 def is_related_pair(candidate_pair: str, selected_pair: str) -> bool:
-    """Check if candidate_pair shares any tokens with selected_pair (with equivalences)."""
-    selected_tokens = get_tokens(selected_pair)
-    candidate_tokens = get_tokens(candidate_pair)
-    return bool(selected_tokens & candidate_tokens)
+    """Check if candidate_pair is relevant to selected_pair.
+
+    Rules:
+    - Must share a BASE asset (with equivalences like SOL<->WSOL)
+    - Sharing only a quote currency (USDT, USDC, etc.) is NOT enough
+    - Example: selected=WSOL_USDC(0.04%) -> base tokens are {WSOL, SOL}
+      - SOL_USDT matches (SOL is equivalent to WSOL base)
+      - RAY_USDT does NOT match (RAY is unrelated)
+      - WSOL_USDC(0.01%) matches (same base WSOL)
+    - Example: selected=KMNO_USDT -> base is {KMNO}
+      - KMNO_USDC matches (same base)
+      - RAY_USDT does NOT match
+    """
+    sel_clean = strip_fee_suffix(selected_pair)
+    sel_parts = sel_clean.split("_")
+    cand_clean = strip_fee_suffix(candidate_pair)
+    cand_parts = cand_clean.split("_")
+
+    # Get base tokens from the selected pair (non-quote tokens, with equivalences)
+    sel_base_tokens: set[str] = set()
+    for p in sel_parts:
+        if p not in QUOTE_CURRENCIES:
+            sel_base_tokens |= _expand_token(p)
+
+    # Get base tokens from the candidate pair
+    cand_base_tokens: set[str] = set()
+    for p in cand_parts:
+        if p not in QUOTE_CURRENCIES:
+            cand_base_tokens |= _expand_token(p)
+
+    # Must share at least one base token
+    return bool(sel_base_tokens & cand_base_tokens)
 
 
 def format_market_display(market: str, pair: str) -> str:
