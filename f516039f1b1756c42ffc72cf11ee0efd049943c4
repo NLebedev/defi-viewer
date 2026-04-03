@@ -1,0 +1,39 @@
+frontend/src/hooks/usePricingData.ts
+  5097c5f2dc51b7c6 3,7,18-19,27
+frontend/src/components/RawLogPanel.tsx
+  5097c5f2dc51b7c6 8-9,12-13,68,85-86,89-91
+backend/app/routers/pricing.py
+  5097c5f2dc51b7c6 1,4,17-18,28-29,32-35,38-49,52-61,64-72,75-87,90-102,105-112,114,116-123,125,139-140,142-158,166-167,172-206,208-220,223-226,228-332,334,336-342,344-359,361-370,372-397,399
+frontend/src/components/PricingTable.tsx
+  5097c5f2dc51b7c6 1,3,7,9,14,17-19,22-48,50-54,57,59-60,62-65,67-77,79-84,87,93-109,112-118,120-173,177-229,231-273,280,284
+frontend/src/components/BrowseView.tsx
+  5097c5f2dc51b7c6 18,41,45
+frontend/src/components/TradeDetail.tsx
+  5097c5f2dc51b7c6 15,50,55,60-71
+frontend/src/components/GraphPanel.tsx
+  5097c5f2dc51b7c6 3,7,17,23-33,37,48-60,63-115,134
+backend/app/pair_mapping.py
+  5097c5f2dc51b7c6 9-13,26,39-43,68-99
+frontend/src/types/index.ts
+  5097c5f2dc51b7c6 23-39,43-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "f516039f1b1756c42ffc72cf11ee0efd049943c4",
+  "prompts": {
+    "5097c5f2dc51b7c6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "502175c4-3ca4-4a57-b0cc-3a4016136d54",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Nick Lebedev",
+      "messages": [],
+      "total_additions": 783,
+      "total_deletions": 391,
+      "accepted_lines": 1289,
+      "overriden_lines": 0
+    }
+  }
+}
