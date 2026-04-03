@@ -1,0 +1,36 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: CEX-DEX Viewer
+    - combobox [ref=e6]:
+      - option "Select hostname..." [selected]
+    - generic [ref=e7]:
+      - button "Trades" [ref=e8] [cursor=pointer]
+      - button "Analysis" [ref=e9]
+      - button "Browse" [ref=e10] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - combobox [ref=e14]:
+        - option "Select pair..." [selected]
+      - generic [ref=e15]:
+        - generic [ref=e16]: "From:"
+        - textbox [ref=e17]: 2026-04-02T22:04:42
+        - generic [ref=e18]: "To:"
+        - textbox [ref=e19]: 2026-04-03T22:04:42
+      - combobox [ref=e20]:
+        - option "All" [selected]
+        - option "Successful"
+        - option "Failed"
+      - button "Loading..." [disabled] [ref=e21] [cursor=pointer]
+    - table [ref=e23]:
+      - rowgroup [ref=e24]:
+        - row "Time Pair Market Success Error Side Slot Delay Provider Strategy" [ref=e25]:
+          - columnheader "Time" [ref=e26] [cursor=pointer]
+          - columnheader "Pair" [ref=e27] [cursor=pointer]
+          - columnheader "Market" [ref=e28] [cursor=pointer]
+          - columnheader "Success" [ref=e29] [cursor=pointer]
+          - columnheader "Error" [ref=e30] [cursor=pointer]
+          - columnheader "Side" [ref=e31] [cursor=pointer]
+          - columnheader "Slot Delay" [ref=e32] [cursor=pointer]
+          - columnheader "Provider" [ref=e33] [cursor=pointer]
+          - columnheader "Strategy" [ref=e34] [cursor=pointer]
+      - rowgroup

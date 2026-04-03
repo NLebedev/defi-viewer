@@ -1,9 +1,10 @@
 import { useState, useCallback } from 'react';
 import { api } from '../api/client';
-import type { PricingRow } from '../types';
+import type { PricingRow, MarketInfo } from '../types';
 
 export function usePricingData() {
   const [rows, setRows] = useState<PricingRow[]>([]);
+  const [markets, setMarkets] = useState<MarketInfo[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -14,7 +15,8 @@ export function usePricingData() {
     setError(null);
     try {
       const data = await api.getPricing(params);
-      setRows(data as PricingRow[]);
+      setMarkets((data as any).markets || []);
+      setRows((data as any).rows || []);
     } catch (e: any) {
       setError(e.message);
     } finally {
@@ -22,5 +24,5 @@ export function usePricingData() {
     }
   }, []);
 
-  return { rows, loading, error, fetchPricing };
+  return { rows, markets, loading, error, fetchPricing };
 }

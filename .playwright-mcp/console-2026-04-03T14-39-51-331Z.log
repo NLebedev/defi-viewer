@@ -1,0 +1,13 @@
+[     144ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:21550
+[   22615ms] [ERROR] Warning: %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.%s Removing borderBottomColor border 
+    at button
+    at div
+    at div
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775227167432:25:35) @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:520
+[   22615ms] [ERROR] Warning: %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.%s Removing borderColor border 
+    at button
+    at div
+    at div
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775227167432:25:35) @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:520

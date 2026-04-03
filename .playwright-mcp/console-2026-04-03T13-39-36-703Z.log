@@ -1,0 +1,45 @@
+[      79ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:21550
+[   19990ms] RangeError: fractionalSecondDigits value is out of range.
+    at Date.toLocaleTimeString (<anonymous>)
+    at http://localhost:3001/src/components/RawLogPanel.tsx:117:94
+    at Array.map (<anonymous>)
+    at RawLogPanel (http://localhost:3001/src/components/RawLogPanel.tsx:115:60)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11548:26)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14582:28)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:15924:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:3699:24)
+    at invokeGuardedCallback (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:3733:39)
+[   19996ms] RangeError: fractionalSecondDigits value is out of range.
+    at Date.toLocaleTimeString (<anonymous>)
+    at http://localhost:3001/src/components/RawLogPanel.tsx:117:94
+    at Array.map (<anonymous>)
+    at RawLogPanel (http://localhost:3001/src/components/RawLogPanel.tsx:115:60)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11548:26)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14582:28)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:15924:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:3674:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:3699:24)
+    at invokeGuardedCallback (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:3733:39)
+[   19996ms] [ERROR] The above error occurred in the <RawLogPanel> component:
+
+    at RawLogPanel (http://localhost:3001/src/components/RawLogPanel.tsx:19:31)
+    at div
+    at div
+    at TradeDetail (http://localhost:3001/src/components/TradeDetail.tsx?t=1775223557975:24:31)
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775223557975:25:35)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14031
+[   19997ms] RangeError: fractionalSecondDigits value is out of range.
+    at Date.toLocaleTimeString (<anonymous>)
+    at http://localhost:3001/src/components/RawLogPanel.tsx:117:94
+    at Array.map (<anonymous>)
+    at RawLogPanel (http://localhost:3001/src/components/RawLogPanel.tsx:115:60)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11548:26)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14582:28)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:15924:22)
+    at beginWork$1 (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:19753:22)
+    at performUnitOfWork (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:19198:20)
+    at workLoopSync (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:19137:13)

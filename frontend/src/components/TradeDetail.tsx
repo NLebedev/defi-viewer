@@ -12,7 +12,7 @@ interface Props {
 }
 
 export function TradeDetail({ trade, hostname }: Props) {
-  const { rows, loading: pricingLoading, fetchPricing } = usePricingData();
+  const { rows, markets, loading: pricingLoading, fetchPricing } = usePricingData();
   const { logs, loading: logsLoading, fetchLogs } = useLogData();
   const [selectedTimestamp, setSelectedTimestamp] = useState<string | null>(null);
 
@@ -47,17 +47,28 @@ export function TradeDetail({ trade, hostname }: Props) {
 
       {/* Pricing Table */}
       <div style={{ flex: 2, borderBottom: '1px solid #2d3548', overflow: 'hidden' }}>
-        <PricingTable rows={rows} loading={pricingLoading} referenceTime={trade.timestamp} onRowClick={ts => setSelectedTimestamp(ts)} selectedTimestamp={selectedTimestamp} />
+        <PricingTable rows={rows} markets={markets} loading={pricingLoading} referenceTime={trade.timestamp} onRowClick={ts => setSelectedTimestamp(ts)} selectedTimestamp={selectedTimestamp} />
       </div>
 
       {/* Graph Panel */}
       <div style={{ flex: 1, borderBottom: '1px solid #2d3548', minHeight: 200 }}>
-        <GraphPanel rows={rows} />
+        <GraphPanel rows={rows} markets={markets} />
       </div>
 
       {/* Raw Log Panel */}
       <div style={{ flex: 1, overflow: 'hidden', minHeight: 150 }}>
-        <RawLogPanel logs={logs} loading={logsLoading} selectedTimestamp={selectedTimestamp} />
+        <RawLogPanel logs={logs} loading={logsLoading} selectedTimestamp={selectedTimestamp} referenceTime={trade.timestamp} onLogClick={ts => {
+          // Find the closest pricing row to this log timestamp
+          if (rows.length === 0) return;
+          const logMs = new Date(ts).getTime();
+          let closest = rows[0].timestamp;
+          let minDiff = Infinity;
+          for (const r of rows) {
+            const diff = Math.abs(new Date(r.timestamp).getTime() - logMs);
+            if (diff < minDiff) { minDiff = diff; closest = r.timestamp; }
+          }
+          setSelectedTimestamp(closest);
+        }} />
       </div>
     </div>
   );

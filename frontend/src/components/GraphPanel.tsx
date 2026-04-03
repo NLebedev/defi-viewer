@@ -1,33 +1,40 @@
 import { useEffect, useRef } from 'react';
 import { createChart, type IChartApi, type ISeriesApi, type UTCTimestamp } from 'lightweight-charts';
-import type { PricingRow } from '../types';
+import type { PricingRow, MarketInfo } from '../types';
 
 interface Props {
   rows: PricingRow[];
+  markets: MarketInfo[];
 }
 
 function toTime(ts: string): UTCTimestamp {
   return (new Date(ts).getTime() / 1000) as UTCTimestamp;
 }
 
-/** Deduplicate by time: keep last value for each second (Lightweight Charts requires unique ascending times). */
 function dedupeByTime(data: { time: UTCTimestamp; value: number }[]): { time: UTCTimestamp; value: number }[] {
   if (data.length === 0) return data;
   const map = new Map<number, number>();
-  for (const d of data) {
-    map.set(d.time as number, d.value);
-  }
+  for (const d of data) map.set(d.time as number, d.value);
   return Array.from(map.entries())
     .sort((a, b) => a[0] - b[0])
     .map(([time, value]) => ({ time: time as UTCTimestamp, value }));
 }
 
-export function GraphPanel({ rows }: Props) {
+const MARKET_COLORS: Record<string, { bid: string; ask: string }> = {
+  BINANCE: { bid: '#4ade80', ask: '#f87171' },
+  THEO: { bid: '#a78bfa', ask: '#f472b6' },
+};
+const DEFAULT_COLORS = [
+  { bid: '#34d399', ask: '#fb923c' },
+  { bid: '#38bdf8', ask: '#fbbf24' },
+  { bid: '#6ee7b7', ask: '#f9a8d4' },
+];
+
+export function GraphPanel({ rows, markets }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const chartRef = useRef<IChartApi | null>(null);
 
   useEffect(() => {
-    if (!containerRef.current || rows.length === 0) return;
+    if (!containerRef.current || rows.length === 0 || markets.length === 0) return;
 
     const chart = createChart(containerRef.current, {
       layout: { background: { color: '#0d1117' }, textColor: '#8892a4', fontSize: 10 },
@@ -38,56 +45,74 @@ export function GraphPanel({ rows }: Props) {
       width: containerRef.current.clientWidth,
       height: containerRef.current.clientHeight,
     });
-    chartRef.current = chart;
 
-    const bidLine = chart.addLineSeries({ color: '#4ade80', lineWidth: 1, title: 'Bin Bid' });
-    const askLine = chart.addLineSeries({ color: '#f87171', lineWidth: 1, title: 'Bin Ask' });
-    const poolLine = chart.addLineSeries({ color: '#60a5fa', lineWidth: 1, title: 'Pool' });
-    const feeBidLine = chart.addLineSeries({ color: '#34d399', lineWidth: 1, lineStyle: 2, title: 'Fee Bid' });
-    const feeAskLine = chart.addLineSeries({ color: '#fb923c', lineWidth: 1, lineStyle: 2, title: 'Fee Ask' });
-    const theoBidLine = chart.addLineSeries({ color: '#a78bfa', lineWidth: 1, title: 'Theo Bid' });
-    const theoAskLine = chart.addLineSeries({ color: '#f472b6', lineWidth: 1, title: 'Theo Ask' });
+    let defaultIdx = 0;
+    const seriesList: ISeriesApi<any>[] = [];
 
-    const setData = (series: ISeriesApi<any>, key: keyof PricingRow) => {
-      const raw = rows
-        .filter(r => r[key] != null && r.timestamp)
-        .map(r => ({ time: toTime(r.timestamp), value: r[key] as number }));
-      const data = dedupeByTime(raw);
-      if (data.length > 0) {
-        try {
-          series.setData(data);
-        } catch (e) {
-          console.warn(`GraphPanel: failed to set ${key} data`, e);
+    for (const m of markets) {
+      let colors: { bid: string; ask: string };
+      if (m.market.includes('BINANCE')) {
+        colors = MARKET_COLORS.BINANCE;
+      } else if (m.market === 'THEO') {
+        colors = MARKET_COLORS.THEO;
+      } else {
+        colors = DEFAULT_COLORS[defaultIdx % DEFAULT_COLORS.length];
+        defaultIdx++;
+      }
+
+      const bidData = dedupeByTime(
+        rows
+          .filter(r => r.values?.[m.key]?.bid_price != null)
+          .map(r => ({ time: toTime(r.timestamp), value: r.values[m.key].bid_price! }))
+      );
+      const askData = dedupeByTime(
+        rows
+          .filter(r => r.values?.[m.key]?.ask_price != null)
+          .map(r => ({ time: toTime(r.timestamp), value: r.values[m.key].ask_price! }))
+      );
+
+      if (bidData.length > 0) {
+        const s = chart.addLineSeries({
+          color: colors.bid, lineWidth: 1,
+          title: `${m.display} Bid`,
+          lineStyle: m.market === 'THEO' ? 2 : 0,
+        });
+        try { s.setData(bidData); } catch (e) { /* ignore */ }
+        seriesList.push(s);
+      }
+      if (askData.length > 0) {
+        const s = chart.addLineSeries({
+          color: colors.ask, lineWidth: 1,
+          title: `${m.display} Ask`,
+          lineStyle: m.market === 'THEO' ? 2 : 0,
+        });
+        try { s.setData(askData); } catch (e) { /* ignore */ }
+        seriesList.push(s);
+      }
+
+      // Trade markers on the first bid series for this market
+      const tradeRows = rows.filter(r => r.values?.[m.key]?.trade);
+      if (tradeRows.length > 0 && seriesList.length > 0) {
+        const seenTimes = new Set<number>();
+        const markers = tradeRows
+          .map(r => {
+            const t = toTime(r.timestamp);
+            if (seenTimes.has(t as number)) return null;
+            seenTimes.add(t as number);
+            const v = r.values[m.key];
+            return {
+              time: t,
+              position: 'aboveBar' as const,
+              color: v._is_own ? (v._successful === false ? '#f87171' : '#facc15') : '#60a5fa',
+              shape: 'circle' as const,
+              text: v._is_own ? 'T' : 't',
+            };
+          })
+          .filter(Boolean) as any[];
+        if (markers.length > 0) {
+          try { seriesList[seriesList.length - 1].setMarkers(markers); } catch (e) { /* ignore */ }
         }
       }
-    };
-
-    setData(bidLine, 'bid_price');
-    setData(askLine, 'ask_price');
-    setData(poolLine, 'pool_price');
-    setData(feeBidLine, 'fee_adj_bid');
-    setData(feeAskLine, 'fee_adj_ask');
-    setData(theoBidLine, 'bid_theo');
-    setData(theoAskLine, 'ask_theo');
-
-    // Add trade markers (also deduped by time)
-    const markersRaw = rows
-      .filter(r => r.own_trade)
-      .map(r => ({
-        time: toTime(r.timestamp),
-        position: 'aboveBar' as const,
-        color: r.own_trade!.includes('[') ? '#f87171' : '#facc15',
-        shape: 'circle' as const,
-        text: 'T',
-      }));
-    const seenMarkerTimes = new Set<number>();
-    const markers = markersRaw.filter(m => {
-      if (seenMarkerTimes.has(m.time as number)) return false;
-      seenMarkerTimes.add(m.time as number);
-      return true;
-    });
-    if (markers.length > 0) {
-      try { bidLine.setMarkers(markers); } catch (e) { /* ignore */ }
     }
 
     chart.timeScale().fitContent();
@@ -106,7 +131,7 @@ export function GraphPanel({ rows }: Props) {
       observer.disconnect();
       chart.remove();
     };
-  }, [rows]);
+  }, [rows, markets]);
 
   return <div ref={containerRef} style={{ width: '100%', height: '100%', minHeight: 200 }} />;
 }

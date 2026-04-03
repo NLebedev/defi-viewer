@@ -20,20 +20,32 @@ export interface Trade {
   tag: string;
 }
 
+export interface MarketInfo {
+  key: string;
+  market: string;
+  pair: string;
+  display: string;
+}
+
+export interface MarketValues {
+  bid_price?: number | null;
+  bid_vol?: number | null;
+  ask_price?: number | null;
+  ask_vol?: number | null;
+  trade?: string | null;
+  _is_own?: boolean;
+  _successful?: boolean;
+}
+
 export interface PricingRow {
   timestamp: string;
   slot: number | null;
-  bid_price: number | null;
-  bid_vol: number | null;
-  ask_price: number | null;
-  ask_vol: number | null;
-  pool_price: number | null;
-  fee_adj_bid: number | null;
-  fee_adj_ask: number | null;
-  bid_theo: number | null;
-  ask_theo: number | null;
-  pool_trade: string | null;
-  own_trade: string | null;
+  values: Record<string, MarketValues>;
+}
+
+export interface PricingResponse {
+  markets: MarketInfo[];
+  rows: PricingRow[];
 }
 
 export interface LogEntry {

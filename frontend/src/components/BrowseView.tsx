@@ -15,7 +15,7 @@ export function BrowseView({ hostname }: Props) {
   const [pair, setPair] = useState('');
   const [start, setStart] = useState('');
   const [end, setEnd] = useState('');
-  const { rows, loading: pricingLoading, fetchPricing } = usePricingData();
+  const { rows, markets, loading: pricingLoading, fetchPricing } = usePricingData();
   const { logs, loading: logsLoading, fetchLogs } = useLogData();
 
   const handleLoad = () => {
@@ -38,11 +38,11 @@ export function BrowseView({ hostname }: Props) {
       </div>
 
       <div style={{ flex: 2, borderBottom: '1px solid #2d3548', overflow: 'hidden' }}>
-        <PricingTable rows={rows} loading={pricingLoading} />
+        <PricingTable rows={rows} markets={markets} loading={pricingLoading} />
       </div>
 
       <div style={{ flex: 1, borderBottom: '1px solid #2d3548', minHeight: 200 }}>
-        <GraphPanel rows={rows} />
+        <GraphPanel rows={rows} markets={markets} />
       </div>
 
       <div style={{ flex: 1, overflow: 'hidden', minHeight: 150 }}>

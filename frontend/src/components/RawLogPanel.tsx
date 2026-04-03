@@ -5,9 +5,12 @@ interface Props {
   logs: LogEntry[];
   loading: boolean;
   selectedTimestamp?: string | null;
+  onLogClick?: (timestamp: string) => void;
+  referenceTime?: string;
 }
 
-export function RawLogPanel({ logs, loading, selectedTimestamp }: Props) {
+export function RawLogPanel({ logs, loading, selectedTimestamp, onLogClick, referenceTime }: Props) {
+  const refMs = referenceTime ? new Date(referenceTime).getTime() : null;
   const [tagFilter, setTagFilter] = useState('');
   const [searchFilter, setSearchFilter] = useState('');
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -62,7 +65,7 @@ export function RawLogPanel({ logs, loading, selectedTimestamp }: Props) {
         <table style={{ borderCollapse: 'collapse', width: '100%' }}>
           <thead style={{ position: 'sticky', top: 0 }}>
             <tr>
-              <th style={styles.th}>Time</th>
+              <th style={styles.th}>{refMs != null ? 'Δ sec' : 'Time'}</th>
               <th style={styles.th}>Pair</th>
               <th style={styles.th}>Market</th>
               <th style={styles.th}>Tag</th>
@@ -79,10 +82,13 @@ export function RawLogPanel({ logs, loading, selectedTimestamp }: Props) {
                 <tr
                   key={i}
                   ref={setRef ? highlightRef : undefined}
-                  style={{ background: highlighted ? '#1e2a45' : undefined }}
+                  style={{ background: highlighted ? '#1e2a45' : undefined, cursor: onLogClick ? 'pointer' : undefined }}
+                  onClick={() => onLogClick?.(log.timestamp)}
                 >
                   <td style={styles.td}>
-                    {new Date(log.timestamp).toLocaleTimeString('en-GB', { hour12: false, fractionalSecondDigits: 3 as any })}
+                    {refMs != null
+                      ? (() => { const d = (new Date(log.timestamp).getTime() - refMs) / 1000; return `${d >= 0 ? '+' : ''}${d.toFixed(3)}`; })()
+                      : new Date(log.timestamp).toLocaleTimeString('en-GB', { hour12: false, fractionalSecondDigits: 3 as any })}
                   </td>
                   <td style={{ ...styles.td, color: '#a78bfa' }}>{log.pair}</td>
                   <td style={styles.td}>{log.market}</td>
