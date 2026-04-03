@@ -1,0 +1,27 @@
+backend/app/pair_mapping.py
+  5097c5f2dc51b7c6 14-17,90-100,102-133
+.gitignore
+  5097c5f2dc51b7c6 24-26
+frontend/src/components/TradeDetail.tsx
+  5097c5f2dc51b7c6 1,14-71,76-79,93-114,116-165,167,184,188-189,191,195,198,219
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "c54fd13010fd89bd16efbf27296bb8ec1995b490",
+  "prompts": {
+    "5097c5f2dc51b7c6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "502175c4-3ca4-4a57-b0cc-3a4016136d54",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Nick Lebedev",
+      "messages": [],
+      "total_additions": 195,
+      "total_deletions": 10,
+      "accepted_lines": 730,
+      "overriden_lines": 0
+    }
+  }
+}
