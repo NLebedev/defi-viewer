@@ -1,0 +1,99 @@
+backend/app/parsers/tlc.py
+  5097c5f2dc51b7c6 1-24
+frontend/package.json
+  5097c5f2dc51b7c6 1-27
+frontend/src/components/RawLogPanel.tsx
+  5097c5f2dc51b7c6 1-121
+frontend/src/components/TradeDetail.tsx
+  5097c5f2dc51b7c6 1-71
+backend/requirements.txt
+  5097c5f2dc51b7c6 1-5
+backend/app/parsers/strategy_order.py
+  5097c5f2dc51b7c6 1-78
+frontend/src/api/client.ts
+  5097c5f2dc51b7c6 1-29
+backend/app/routers/trades.py
+  5097c5f2dc51b7c6 1-92
+frontend/index.html
+  5097c5f2dc51b7c6 1-21
+backend/app/parsers/pool_price.py
+  5097c5f2dc51b7c6 1-29
+frontend/src/hooks/usePricingData.ts
+  5097c5f2dc51b7c6 1-26
+frontend/src/components/BrowseView.tsx
+  5097c5f2dc51b7c6 1-60
+frontend/src/App.tsx
+  5097c5f2dc51b7c6 1-114
+frontend/src/components/TimeRangeSelector.tsx
+  5097c5f2dc51b7c6 1-41
+backend/app/parsers/__init__.py
+  5097c5f2dc51b7c6 1-17
+frontend/src/components/TradeList.tsx
+  5097c5f2dc51b7c6 1-193
+backend/app/parsers/pool_price_fetch.py
+  5097c5f2dc51b7c6 1-26
+frontend/src/hooks/useLogData.ts
+  5097c5f2dc51b7c6 1-27
+frontend/src/components/PairSelector.tsx
+  5097c5f2dc51b7c6 1-35
+backend/app/routers/pricing.py
+  5097c5f2dc51b7c6 1-231
+backend/app/parsers/own_trade.py
+  5097c5f2dc51b7c6 1-72
+backend/app/pair_mapping.py
+  5097c5f2dc51b7c6 1-61
+frontend/src/components/GraphPanel.tsx
+  5097c5f2dc51b7c6 1-112
+frontend/tsconfig.json
+  5097c5f2dc51b7c6 1-21
+backend/app/index_resolver.py
+  5097c5f2dc51b7c6 1-15
+frontend/src/hooks/useTrades.ts
+  5097c5f2dc51b7c6 1-27
+frontend/src/components/HostnameSelector.tsx
+  5097c5f2dc51b7c6 1-33
+backend/app/routers/meta.py
+  5097c5f2dc51b7c6 1-31
+backend/app/config.py
+  5097c5f2dc51b7c6 1-12
+backend/app/parsers/public_trade.py
+  5097c5f2dc51b7c6 1-39
+.gitignore
+  5097c5f2dc51b7c6 1-25
+frontend/src/types/index.ts
+  5097c5f2dc51b7c6 1-46
+backend/app/routers/logs.py
+  5097c5f2dc51b7c6 1-60
+frontend/src/components/PricingTable.tsx
+  5097c5f2dc51b7c6 1-157
+backend/app/opensearch_client.py
+  5097c5f2dc51b7c6 1-25
+backend/app/main.py
+  5097c5f2dc51b7c6 1-23
+frontend/src/main.tsx
+  5097c5f2dc51b7c6 1-9
+frontend/vite.config.ts
+  5097c5f2dc51b7c6 1-15
+backend/app/parsers/failed_trade.py
+  5097c5f2dc51b7c6 1-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "e2fd8e76603f4114a8fd60656dcd0e7defb23460",
+  "prompts": {
+    "5097c5f2dc51b7c6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "502175c4-3ca4-4a57-b0cc-3a4016136d54",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Nick Lebedev",
+      "messages": [],
+      "total_additions": 2774,
+      "total_deletions": 126,
+      "accepted_lines": 2642,
+      "overriden_lines": 0
+    }
+  }
+}
