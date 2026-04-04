@@ -1,0 +1,71 @@
+[      75ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:21550
+[   21781ms] [ERROR] Warning: %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.%s Removing borderBottomColor border 
+    at button
+    at div
+    at div
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775225212649:25:35) @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:520
+[   21782ms] [ERROR] Warning: %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.%s Removing borderColor border 
+    at button
+    at div
+    at div
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775225212649:25:35) @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:520
+[  830564ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/src/components/PricingTable.tsx?t=1775226055267:0
+[  830564ms] [ERROR] [hmr] Failed to reload /src/components/PricingTable.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:3001/@vite/client:175
+[ 1781592ms] [ERROR] Warning: React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://reactjs.org/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+%s TradeDetail 1. useState                   useState
+2. useState                   useState
+3. useState                   useState
+4. useCallback                useState
+ 
+    at TradeDetail (http://localhost:3001/src/components/TradeDetail.tsx?t=1775227006262:24:31)
+    at div
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775225212649:25:35) @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:520
+[ 1781596ms] Error: Should have a queue. This is likely a bug in React. Please file an issue.
+    at updateReducer (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11730:19)
+    at updateState (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:12021:18)
+    at Object.useState (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:12753:24)
+    at useState (http://localhost:3001/node_modules/.vite/deps/chunk-CANBAPAS.js?v=274854c3:1066:29)
+    at usePricingData (http://localhost:3001/src/hooks/usePricingData.ts?t=1775227006262:7:29)
+    at TradeDetail (http://localhost:3001/src/components/TradeDetail.tsx?t=1775227006262:26:59)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11548:26)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14582:28)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:15924:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:3674:22)
+[ 1781597ms] Error: Should have a queue. This is likely a bug in React. Please file an issue.
+    at updateReducer (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11730:19)
+    at updateState (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:12021:18)
+    at Object.useState (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:12753:24)
+    at useState (http://localhost:3001/node_modules/.vite/deps/chunk-CANBAPAS.js?v=274854c3:1066:29)
+    at usePricingData (http://localhost:3001/src/hooks/usePricingData.ts?t=1775227006262:7:29)
+    at TradeDetail (http://localhost:3001/src/components/TradeDetail.tsx?t=1775227006262:26:59)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11548:26)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14582:28)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:15924:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:3674:22)
+[ 1781606ms] [ERROR] The above error occurred in the <TradeDetail> component:
+
+    at TradeDetail (http://localhost:3001/src/components/TradeDetail.tsx?t=1775227006262:24:31)
+    at div
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775225212649:25:35)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14031
+[ 1781617ms] Error: Should have a queue. This is likely a bug in React. Please file an issue.
+    at updateReducer (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11730:19)
+    at updateState (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:12021:18)
+    at Object.useState (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:12753:24)
+    at useState (http://localhost:3001/node_modules/.vite/deps/chunk-CANBAPAS.js?v=274854c3:1066:29)
+    at usePricingData (http://localhost:3001/src/hooks/usePricingData.ts?t=1775227006262:7:29)
+    at TradeDetail (http://localhost:3001/src/components/TradeDetail.tsx?t=1775227006262:26:59)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:11548:26)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14582:28)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:15924:22)
+    at beginWork$1 (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:19753:22)

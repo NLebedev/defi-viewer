@@ -1,0 +1,35 @@
+[      92ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:21550
+[     125ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/favicon.ico:0
+[   50886ms] Error: Assertion failed: data must be asc ordered by time, index=17, time=1775220459.535, prev time=1775220459.535
+    at assert (http://localhost:3001/node_modules/.vite/deps/lightweight-charts.js?v=558597dd:562:11)
+    at checkItemsAreOrdered (http://localhost:3001/node_modules/.vite/deps/lightweight-charts.js?v=558597dd:11990:5)
+    at SeriesApi.setData (http://localhost:3001/node_modules/.vite/deps/lightweight-charts.js?v=558597dd:12148:5)
+    at setData (http://localhost:3001/src/components/GraphPanel.tsx:48:35)
+    at http://localhost:3001/src/components/GraphPanel.tsx:50:5
+    at commitHookEffectListMount (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:18119:15)
+    at commitPassiveMountEffects (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:18109:11)
+[   50888ms] [ERROR] The above error occurred in the <GraphPanel> component:
+
+    at GraphPanel (http://localhost:3001/src/components/GraphPanel.tsx:23:30)
+    at div
+    at div
+    at TradeDetail (http://localhost:3001/src/components/TradeDetail.tsx:24:31)
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775223364842:25:35)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:14031
+[   50889ms] Error: Assertion failed: data must be asc ordered by time, index=17, time=1775220459.535, prev time=1775220459.535
+    at assert (http://localhost:3001/node_modules/.vite/deps/lightweight-charts.js?v=558597dd:562:11)
+    at checkItemsAreOrdered (http://localhost:3001/node_modules/.vite/deps/lightweight-charts.js?v=558597dd:11990:5)
+    at SeriesApi.setData (http://localhost:3001/node_modules/.vite/deps/lightweight-charts.js?v=558597dd:12148:5)
+    at setData (http://localhost:3001/src/components/GraphPanel.tsx:48:35)
+    at http://localhost:3001/src/components/GraphPanel.tsx:50:5
+    at commitHookEffectListMount (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:18119:15)
+    at commitPassiveMountEffects (http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:18109:11)

@@ -1,0 +1,15 @@
+[      75ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:21550
+[   24730ms] [ERROR] Warning: %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.%s Removing borderBottomColor border 
+    at button
+    at div
+    at div
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775225065327:25:35) @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:520
+[   24730ms] [ERROR] Warning: %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.%s Removing borderColor border 
+    at button
+    at div
+    at div
+    at div
+    at App (http://localhost:3001/src/App.tsx?t=1775225065327:25:35) @ http://localhost:3001/node_modules/.vite/deps/chunk-TYILIMWK.js?v=274854c3:520
+[  110343ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/src/components/PricingTable.tsx?t=1775225192772:0
+[  110349ms] [ERROR] [hmr] Failed to reload /src/components/PricingTable.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:3001/@vite/client:175

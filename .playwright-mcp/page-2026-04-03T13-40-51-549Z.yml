@@ -1,0 +1,1163 @@
+- generic [ref=e2176]:
+  - generic [ref=e2177]:
+    - button "← Back" [ref=e2178] [cursor=pointer]
+    - generic [ref=e2179]: WSOL_USDT(0.02%)
+    - generic [ref=e2180]: FAILED
+    - generic [ref=e2181]: "[CustomProgramError(0)]"
+    - generic [ref=e2182]: 03/04/2026, 21:07:37
+    - generic [ref=e2183]: "Slot: 410757551"
+    - generic [ref=e2184]: JITO
+    - generic [ref=e2185]: 91 pricing rows
+  - table [ref=e2188]:
+    - rowgroup [ref=e2189]:
+      - row "Time Slot Bin Bid Bid Vol Bin Ask Ask Vol Pool Price Fee Bid Fee Ask Theo Bid Theo Ask Pool Trade Own Trade" [ref=e2190]:
+        - columnheader "Time" [ref=e2191]
+        - columnheader "Slot" [ref=e2192]
+        - columnheader "Bin Bid" [ref=e2193]
+        - columnheader "Bid Vol" [ref=e2194]
+        - columnheader "Bin Ask" [ref=e2195]
+        - columnheader "Ask Vol" [ref=e2196]
+        - columnheader "Pool Price" [ref=e2197]
+        - columnheader "Fee Bid" [ref=e2198]
+        - columnheader "Fee Ask" [ref=e2199]
+        - columnheader "Theo Bid" [ref=e2200]
+        - columnheader "Theo Ask" [ref=e2201]
+        - columnheader "Pool Trade" [ref=e2202]
+        - columnheader "Own Trade" [ref=e2203]
+    - rowgroup [ref=e2204]:
+      - row [ref=e2205]:
+        - cell [ref=e2206]
+      - row "867 79.270000 325.0 79.280000 198.9" [ref=e2207]:
+        - cell "867" [ref=e2208]
+        - cell [ref=e2209]
+        - cell "79.270000" [ref=e2210]
+        - cell "325.0" [ref=e2211]
+        - cell "79.280000" [ref=e2212]
+        - cell "198.9" [ref=e2213]
+        - cell [ref=e2214]
+        - cell [ref=e2215]
+        - cell [ref=e2216]
+        - cell [ref=e2217]
+        - cell [ref=e2218]
+        - cell [ref=e2219]
+        - cell [ref=e2220]
+      - row "667 79.260000 460.5 79.270000 199.4" [ref=e2221]:
+        - cell "667" [ref=e2222]
+        - cell [ref=e2223]
+        - cell "79.260000" [ref=e2224]
+        - cell "460.5" [ref=e2225]
+        - cell "79.270000" [ref=e2226]
+        - cell "199.4" [ref=e2227]
+        - cell [ref=e2228]
+        - cell [ref=e2229]
+        - cell [ref=e2230]
+        - cell [ref=e2231]
+        - cell [ref=e2232]
+        - cell [ref=e2233]
+        - cell [ref=e2234]
+      - row "173 410757497 79.260000 460.5 79.270000 199.4" [ref=e2235]:
+        - cell "173" [ref=e2236]
+        - cell "410757497" [ref=e2237]
+        - cell "79.260000" [ref=e2238]
+        - cell "460.5" [ref=e2239]
+        - cell "79.270000" [ref=e2240]
+        - cell "199.4" [ref=e2241]
+        - cell [ref=e2242]
+        - cell [ref=e2243]
+        - cell [ref=e2244]
+        - cell [ref=e2245]
+        - cell [ref=e2246]
+        - cell [ref=e2247]
+        - cell [ref=e2248]
+      - row "173 410757497 79.260000 460.5 79.270000 199.4 79.28582220 79.26996504 79.30167937" [ref=e2249]:
+        - cell "173" [ref=e2250]
+        - cell "410757497" [ref=e2251]
+        - cell "79.260000" [ref=e2252]
+        - cell "460.5" [ref=e2253]
+        - cell "79.270000" [ref=e2254]
+        - cell "199.4" [ref=e2255]
+        - cell "79.28582220" [ref=e2256]
+        - cell "79.26996504" [ref=e2257]
+        - cell "79.30167937" [ref=e2258]
+        - cell [ref=e2259]
+        - cell [ref=e2260]
+        - cell [ref=e2261]
+        - cell [ref=e2262]
+      - row "723 410757497 79.260000 460.5 79.270000 199.4 79.27068364 79.25482951 79.28653778" [ref=e2263]:
+        - cell "723" [ref=e2264]
+        - cell "410757497" [ref=e2265]
+        - cell "79.260000" [ref=e2266]
+        - cell "460.5" [ref=e2267]
+        - cell "79.270000" [ref=e2268]
+        - cell "199.4" [ref=e2269]
+        - cell "79.27068364" [ref=e2270]
+        - cell "79.25482951" [ref=e2271]
+        - cell "79.28653778" [ref=e2272]
+        - cell [ref=e2273]
+        - cell [ref=e2274]
+        - cell [ref=e2275]
+        - cell [ref=e2276]
+      - row "317 410757497 79.270000 250.7 79.280000 921.3 79.27068364 79.25482951 79.28653778" [ref=e2277]:
+        - cell "317" [ref=e2278]
+        - cell "410757497" [ref=e2279]
+        - cell "79.270000" [ref=e2280]
+        - cell "250.7" [ref=e2281]
+        - cell "79.280000" [ref=e2282]
+        - cell "921.3" [ref=e2283]
+        - cell "79.27068364" [ref=e2284]
+        - cell "79.25482951" [ref=e2285]
+        - cell "79.28653778" [ref=e2286]
+        - cell [ref=e2287]
+        - cell [ref=e2288]
+        - cell [ref=e2289]
+        - cell [ref=e2290]
+      - row "167 410757497 79.280000 46.9 79.290000 1718.3 79.27068364 79.25482951 79.28653778" [ref=e2291]:
+        - cell "167" [ref=e2292]
+        - cell "410757497" [ref=e2293]
+        - cell "79.280000" [ref=e2294]
+        - cell "46.9" [ref=e2295]
+        - cell "79.290000" [ref=e2296]
+        - cell "1718.3" [ref=e2297]
+        - cell "79.27068364" [ref=e2298]
+        - cell "79.25482951" [ref=e2299]
+        - cell "79.28653778" [ref=e2300]
+        - cell [ref=e2301]
+        - cell [ref=e2302]
+        - cell [ref=e2303]
+        - cell [ref=e2304]
+      - row "479 410757497 79.270000 296.9 79.280000 291.0 79.27068364 79.25482951 79.28653778" [ref=e2305]:
+        - cell "479" [ref=e2306]
+        - cell "410757497" [ref=e2307]
+        - cell "79.270000" [ref=e2308]
+        - cell "296.9" [ref=e2309]
+        - cell "79.280000" [ref=e2310]
+        - cell "291.0" [ref=e2311]
+        - cell "79.27068364" [ref=e2312]
+        - cell "79.25482951" [ref=e2313]
+        - cell "79.28653778" [ref=e2314]
+        - cell [ref=e2315]
+        - cell [ref=e2316]
+        - cell [ref=e2317]
+        - cell [ref=e2318]
+      - row "517 410757497 79.260000 509.4 79.270000 199.4 79.27068364 79.25482951 79.28653778" [ref=e2319]:
+        - cell "517" [ref=e2320]
+        - cell "410757497" [ref=e2321]
+        - cell "79.260000" [ref=e2322]
+        - cell "509.4" [ref=e2323]
+        - cell "79.270000" [ref=e2324]
+        - cell "199.4" [ref=e2325]
+        - cell "79.27068364" [ref=e2326]
+        - cell "79.25482951" [ref=e2327]
+        - cell "79.28653778" [ref=e2328]
+        - cell [ref=e2329]
+        - cell [ref=e2330]
+        - cell [ref=e2331]
+        - cell [ref=e2332]
+      - row "657 410757497 79.250000 212.1 79.260000 78.9 79.27068364 79.25482951 79.28653778" [ref=e2333]:
+        - cell "657" [ref=e2334]
+        - cell "410757497" [ref=e2335]
+        - cell "79.250000" [ref=e2336]
+        - cell "212.1" [ref=e2337]
+        - cell "79.260000" [ref=e2338]
+        - cell "78.9" [ref=e2339]
+        - cell "79.27068364" [ref=e2340]
+        - cell "79.25482951" [ref=e2341]
+        - cell "79.28653778" [ref=e2342]
+        - cell [ref=e2343]
+        - cell [ref=e2344]
+        - cell [ref=e2345]
+        - cell [ref=e2346]
+      - row "705 410757497 79.240000 82.4 79.250000 653.3 79.27068364 79.25482951 79.28653778" [ref=e2347]:
+        - cell "705" [ref=e2348]
+        - cell "410757497" [ref=e2349]
+        - cell "79.240000" [ref=e2350]
+        - cell "82.4" [ref=e2351]
+        - cell "79.250000" [ref=e2352]
+        - cell "653.3" [ref=e2353]
+        - cell "79.27068364" [ref=e2354]
+        - cell "79.25482951" [ref=e2355]
+        - cell "79.28653778" [ref=e2356]
+        - cell [ref=e2357]
+        - cell [ref=e2358]
+        - cell [ref=e2359]
+        - cell [ref=e2360]
+      - row "790 410757497 79.240000 82.4 79.250000 653.3 79.26591780 79.25006462 79.28177098" [ref=e2361]:
+        - cell "790" [ref=e2362]
+        - cell "410757497" [ref=e2363]
+        - cell "79.240000" [ref=e2364]
+        - cell "82.4" [ref=e2365]
+        - cell "79.250000" [ref=e2366]
+        - cell "653.3" [ref=e2367]
+        - cell "79.26591780" [ref=e2368]
+        - cell "79.25006462" [ref=e2369]
+        - cell "79.28177098" [ref=e2370]
+        - cell [ref=e2371]
+        - cell [ref=e2372]
+        - cell [ref=e2373]
+        - cell [ref=e2374]
+      - row "796 410757523 79.240000 82.4 79.250000 653.3 79.26591780 79.25006462 79.28177098" [ref=e2375]:
+        - cell "796" [ref=e2376]
+        - cell "410757523" [ref=e2377]
+        - cell "79.240000" [ref=e2378]
+        - cell "82.4" [ref=e2379]
+        - cell "79.250000" [ref=e2380]
+        - cell "653.3" [ref=e2381]
+        - cell "79.26591780" [ref=e2382]
+        - cell "79.25006462" [ref=e2383]
+        - cell "79.28177098" [ref=e2384]
+        - cell [ref=e2385]
+        - cell [ref=e2386]
+        - cell [ref=e2387]
+        - cell [ref=e2388]
+      - row "796 410757523 79.240000 82.4 79.250000 653.3 79.27575823 79.25990307 79.29161338" [ref=e2389]:
+        - cell "796" [ref=e2390]
+        - cell "410757523" [ref=e2391]
+        - cell "79.240000" [ref=e2392]
+        - cell "82.4" [ref=e2393]
+        - cell "79.250000" [ref=e2394]
+        - cell "653.3" [ref=e2395]
+        - cell "79.27575823" [ref=e2396]
+        - cell "79.25990307" [ref=e2397]
+        - cell "79.29161338" [ref=e2398]
+        - cell [ref=e2399]
+        - cell [ref=e2400]
+        - cell [ref=e2401]
+        - cell [ref=e2402]
+      - row "412 410757523 79.230000 249.9 79.240000 550.5 79.27575823 79.25990307 79.29161338" [ref=e2403]:
+        - cell "412" [ref=e2404]
+        - cell "410757523" [ref=e2405]
+        - cell "79.230000" [ref=e2406]
+        - cell "249.9" [ref=e2407]
+        - cell "79.240000" [ref=e2408]
+        - cell "550.5" [ref=e2409]
+        - cell "79.27575823" [ref=e2410]
+        - cell "79.25990307" [ref=e2411]
+        - cell "79.29161338" [ref=e2412]
+        - cell [ref=e2413]
+        - cell [ref=e2414]
+        - cell [ref=e2415]
+        - cell [ref=e2416]
+      - row "967 410757523 79.220000 279.1 79.230000 218.6 79.27575823 79.25990307 79.29161338" [ref=e2417]:
+        - cell "967" [ref=e2418]
+        - cell "410757523" [ref=e2419]
+        - cell "79.220000" [ref=e2420]
+        - cell "279.1" [ref=e2421]
+        - cell "79.230000" [ref=e2422]
+        - cell "218.6" [ref=e2423]
+        - cell "79.27575823" [ref=e2424]
+        - cell "79.25990307" [ref=e2425]
+        - cell "79.29161338" [ref=e2426]
+        - cell [ref=e2427]
+        - cell [ref=e2428]
+        - cell [ref=e2429]
+        - cell [ref=e2430]
+      - row "228 410757527 79.220000 279.1 79.230000 218.6 79.27575823 79.25990307 79.29161338" [ref=e2431]:
+        - cell "228" [ref=e2432]
+        - cell "410757527" [ref=e2433]
+        - cell "79.220000" [ref=e2434]
+        - cell "279.1" [ref=e2435]
+        - cell "79.230000" [ref=e2436]
+        - cell "218.6" [ref=e2437]
+        - cell "79.27575823" [ref=e2438]
+        - cell "79.25990307" [ref=e2439]
+        - cell "79.29161338" [ref=e2440]
+        - cell [ref=e2441]
+        - cell [ref=e2442]
+        - cell [ref=e2443]
+        - cell [ref=e2444]
+      - row "228 410757527 79.220000 279.1 79.230000 218.6 79.25923540 79.24338356 79.27508725" [ref=e2445]:
+        - cell "228" [ref=e2446]
+        - cell "410757527" [ref=e2447]
+        - cell "79.220000" [ref=e2448]
+        - cell "279.1" [ref=e2449]
+        - cell "79.230000" [ref=e2450]
+        - cell "218.6" [ref=e2451]
+        - cell "79.25923540" [ref=e2452]
+        - cell "79.24338356" [ref=e2453]
+        - cell "79.27508725" [ref=e2454]
+        - cell [ref=e2455]
+        - cell [ref=e2456]
+        - cell [ref=e2457]
+        - cell [ref=e2458]
+      - row "287 410757527 79.220000 279.1 79.230000 218.6 79.25824768 79.24239603 79.27409933" [ref=e2459]:
+        - cell "287" [ref=e2460]
+        - cell "410757527" [ref=e2461]
+        - cell "79.220000" [ref=e2462]
+        - cell "279.1" [ref=e2463]
+        - cell "79.230000" [ref=e2464]
+        - cell "218.6" [ref=e2465]
+        - cell "79.25824768" [ref=e2466]
+        - cell "79.24239603" [ref=e2467]
+        - cell "79.27409933" [ref=e2468]
+        - cell [ref=e2469]
+        - cell [ref=e2470]
+        - cell [ref=e2471]
+        - cell [ref=e2472]
+      - row "954 410757527 79.220000 279.1 79.230000 218.6 79.23691571 79.22106833 79.25276310" [ref=e2473]:
+        - cell "954" [ref=e2474]
+        - cell "410757527" [ref=e2475]
+        - cell "79.220000" [ref=e2476]
+        - cell "279.1" [ref=e2477]
+        - cell "79.230000" [ref=e2478]
+        - cell "218.6" [ref=e2479]
+        - cell "79.23691571" [ref=e2480]
+        - cell "79.22106833" [ref=e2481]
+        - cell "79.25276310" [ref=e2482]
+        - cell [ref=e2483]
+        - cell [ref=e2484]
+        - cell [ref=e2485]
+        - cell [ref=e2486]
+      - row "248 410757529 79.220000 279.1 79.230000 218.6 79.23691571 79.22106833 79.25276310" [ref=e2487]:
+        - cell "248" [ref=e2488]
+        - cell "410757529" [ref=e2489]
+        - cell "79.220000" [ref=e2490]
+        - cell "279.1" [ref=e2491]
+        - cell "79.230000" [ref=e2492]
+        - cell "218.6" [ref=e2493]
+        - cell "79.23691571" [ref=e2494]
+        - cell "79.22106833" [ref=e2495]
+        - cell "79.25276310" [ref=e2496]
+        - cell [ref=e2497]
+        - cell [ref=e2498]
+        - cell [ref=e2499]
+        - cell [ref=e2500]
+      - row "248 410757529 79.220000 279.1 79.230000 218.6 79.23701827 79.22117087 79.25286568" [ref=e2501]:
+        - cell "248" [ref=e2502]
+        - cell "410757529" [ref=e2503]
+        - cell "79.220000" [ref=e2504]
+        - cell "279.1" [ref=e2505]
+        - cell "79.230000" [ref=e2506]
+        - cell "218.6" [ref=e2507]
+        - cell "79.23701827" [ref=e2508]
+        - cell "79.22117087" [ref=e2509]
+        - cell "79.25286568" [ref=e2510]
+        - cell [ref=e2511]
+        - cell [ref=e2512]
+        - cell [ref=e2513]
+        - cell [ref=e2514]
+      - row "681 410757529 79.220000 279.1 79.230000 218.6 79.18887783 79.17304005 79.20471560" [ref=e2515]:
+        - cell "681" [ref=e2516]
+        - cell "410757529" [ref=e2517]
+        - cell "79.220000" [ref=e2518]
+        - cell "279.1" [ref=e2519]
+        - cell "79.230000" [ref=e2520]
+        - cell "218.6" [ref=e2521]
+        - cell "79.18887783" [ref=e2522]
+        - cell "79.17304005" [ref=e2523]
+        - cell "79.20471560" [ref=e2524]
+        - cell [ref=e2525]
+        - cell [ref=e2526]
+        - cell [ref=e2527]
+        - cell [ref=e2528]
+      - row "738 410757529 79.220000 279.1 79.230000 218.6 79.20838444 79.19254277 79.22422612" [ref=e2529]:
+        - cell "738" [ref=e2530]
+        - cell "410757529" [ref=e2531]
+        - cell "79.220000" [ref=e2532]
+        - cell "279.1" [ref=e2533]
+        - cell "79.230000" [ref=e2534]
+        - cell "218.6" [ref=e2535]
+        - cell "79.20838444" [ref=e2536]
+        - cell "79.19254277" [ref=e2537]
+        - cell "79.22422612" [ref=e2538]
+        - cell [ref=e2539]
+        - cell [ref=e2540]
+        - cell [ref=e2541]
+        - cell [ref=e2542]
+      - row "741 410757529 79.220000 279.1 79.230000 218.6 79.20872848 79.19288674 79.22457023" [ref=e2543]:
+        - cell "741" [ref=e2544]
+        - cell "410757529" [ref=e2545]
+        - cell "79.220000" [ref=e2546]
+        - cell "279.1" [ref=e2547]
+        - cell "79.230000" [ref=e2548]
+        - cell "218.6" [ref=e2549]
+        - cell "79.20872848" [ref=e2550]
+        - cell "79.19288674" [ref=e2551]
+        - cell "79.22457023" [ref=e2552]
+        - cell [ref=e2553]
+        - cell [ref=e2554]
+        - cell [ref=e2555]
+        - cell [ref=e2556]
+      - row "146 410757529 79.230000 346.2 79.240000 394.9 79.20872848 79.19288674 79.22457023" [ref=e2557]:
+        - cell "146" [ref=e2558]
+        - cell "410757529" [ref=e2559]
+        - cell "79.230000" [ref=e2560]
+        - cell "346.2" [ref=e2561]
+        - cell "79.240000" [ref=e2562]
+        - cell "394.9" [ref=e2563]
+        - cell "79.20872848" [ref=e2564]
+        - cell "79.19288674" [ref=e2565]
+        - cell "79.22457023" [ref=e2566]
+        - cell [ref=e2567]
+        - cell [ref=e2568]
+        - cell [ref=e2569]
+        - cell [ref=e2570]
+      - row "153 410757529 79.240000 135.1 79.250000 1661.4 79.20872848 79.19288674 79.22457023" [ref=e2571]:
+        - cell "153" [ref=e2572]
+        - cell "410757529" [ref=e2573]
+        - cell "79.240000" [ref=e2574]
+        - cell "135.1" [ref=e2575]
+        - cell "79.250000" [ref=e2576]
+        - cell "1661.4" [ref=e2577]
+        - cell "79.20872848" [ref=e2578]
+        - cell "79.19288674" [ref=e2579]
+        - cell "79.22457023" [ref=e2580]
+        - cell [ref=e2581]
+        - cell [ref=e2582]
+        - cell [ref=e2583]
+        - cell [ref=e2584]
+      - row "242 410757529 79.240000 135.1 79.250000 1661.4 79.22608524 79.21024003 79.24193046" [ref=e2585]:
+        - cell "242" [ref=e2586]
+        - cell "410757529" [ref=e2587]
+        - cell "79.240000" [ref=e2588]
+        - cell "135.1" [ref=e2589]
+        - cell "79.250000" [ref=e2590]
+        - cell "1661.4" [ref=e2591]
+        - cell "79.22608524" [ref=e2592]
+        - cell "79.21024003" [ref=e2593]
+        - cell "79.24193046" [ref=e2594]
+        - cell [ref=e2595]
+        - cell [ref=e2596]
+        - cell [ref=e2597]
+        - cell [ref=e2598]
+      - row "815 410757529 79.240000 135.1 79.250000 1661.4 79.23572301 79.21987587 79.25157015" [ref=e2599]:
+        - cell "815" [ref=e2600]
+        - cell "410757529" [ref=e2601]
+        - cell "79.240000" [ref=e2602]
+        - cell "135.1" [ref=e2603]
+        - cell "79.250000" [ref=e2604]
+        - cell "1661.4" [ref=e2605]
+        - cell "79.23572301" [ref=e2606]
+        - cell "79.21987587" [ref=e2607]
+        - cell "79.25157015" [ref=e2608]
+        - cell [ref=e2609]
+        - cell [ref=e2610]
+        - cell [ref=e2611]
+        - cell [ref=e2612]
+      - row "290 410757529 79.250000 647.3 79.260000 29.6 79.23572301 79.21987587 79.25157015" [ref=e2613]:
+        - cell "290" [ref=e2614]
+        - cell "410757529" [ref=e2615]
+        - cell "79.250000" [ref=e2616]
+        - cell "647.3" [ref=e2617]
+        - cell "79.260000" [ref=e2618]
+        - cell "29.6" [ref=e2619]
+        - cell "79.23572301" [ref=e2620]
+        - cell "79.21987587" [ref=e2621]
+        - cell "79.25157015" [ref=e2622]
+        - cell [ref=e2623]
+        - cell [ref=e2624]
+        - cell [ref=e2625]
+        - cell [ref=e2626]
+      - row "293 410757529 79.270000 806.4 79.280000 154.0 79.23572301 79.21987587 79.25157015" [ref=e2627]:
+        - cell "293" [ref=e2628]
+        - cell "410757529" [ref=e2629]
+        - cell "79.270000" [ref=e2630]
+        - cell "806.4" [ref=e2631]
+        - cell "79.280000" [ref=e2632]
+        - cell "154.0" [ref=e2633]
+        - cell "79.23572301" [ref=e2634]
+        - cell "79.21987587" [ref=e2635]
+        - cell "79.25157015" [ref=e2636]
+        - cell [ref=e2637]
+        - cell [ref=e2638]
+        - cell [ref=e2639]
+        - cell [ref=e2640]
+      - row "294 410757529 79.290000 35.0 79.300000 585.7 79.23572301 79.21987587 79.25157015" [ref=e2641]:
+        - cell "294" [ref=e2642]
+        - cell "410757529" [ref=e2643]
+        - cell "79.290000" [ref=e2644]
+        - cell "35.0" [ref=e2645]
+        - cell "79.300000" [ref=e2646]
+        - cell "585.7" [ref=e2647]
+        - cell "79.23572301" [ref=e2648]
+        - cell "79.21987587" [ref=e2649]
+        - cell "79.25157015" [ref=e2650]
+        - cell [ref=e2651]
+        - cell [ref=e2652]
+        - cell [ref=e2653]
+        - cell [ref=e2654]
+      - row "297 410757529 79.300000 908.2 79.310000 173.1 79.23572301 79.21987587 79.25157015" [ref=e2655]:
+        - cell "297" [ref=e2656]
+        - cell "410757529" [ref=e2657]
+        - cell "79.300000" [ref=e2658]
+        - cell "908.2" [ref=e2659]
+        - cell "79.310000" [ref=e2660]
+        - cell "173.1" [ref=e2661]
+        - cell "79.23572301" [ref=e2662]
+        - cell "79.21987587" [ref=e2663]
+        - cell "79.25157015" [ref=e2664]
+        - cell [ref=e2665]
+        - cell [ref=e2666]
+        - cell [ref=e2667]
+        - cell [ref=e2668]
+      - row "298 410757529 79.310000 252.3 79.320000 158.3 79.23572301 79.21987587 79.25157015" [ref=e2669]:
+        - cell "298" [ref=e2670]
+        - cell "410757529" [ref=e2671]
+        - cell "79.310000" [ref=e2672]
+        - cell "252.3" [ref=e2673]
+        - cell "79.320000" [ref=e2674]
+        - cell "158.3" [ref=e2675]
+        - cell "79.23572301" [ref=e2676]
+        - cell "79.21987587" [ref=e2677]
+        - cell "79.25157015" [ref=e2678]
+        - cell [ref=e2679]
+        - cell [ref=e2680]
+        - cell [ref=e2681]
+        - cell [ref=e2682]
+      - row "298 410757529 79.310000 252.3 79.320000 158.3 79.23572301 79.21987587 79.25157015 79.31000000 79.32000000" [ref=e2683]:
+        - cell "298" [ref=e2684]
+        - cell "410757529" [ref=e2685]
+        - cell "79.310000" [ref=e2686]
+        - cell "252.3" [ref=e2687]
+        - cell "79.320000" [ref=e2688]
+        - cell "158.3" [ref=e2689]
+        - cell "79.23572301" [ref=e2690]
+        - cell "79.21987587" [ref=e2691]
+        - cell "79.25157015" [ref=e2692]
+        - cell "79.31000000" [ref=e2693]
+        - cell "79.32000000" [ref=e2694]
+        - cell [ref=e2695]
+        - cell [ref=e2696]
+      - row "313 410757529 79.300000 1166.4 79.310000 92.8 79.23572301 79.21987587 79.25157015 79.31000000 79.32000000" [ref=e2697]:
+        - cell "313" [ref=e2698]
+        - cell "410757529" [ref=e2699]
+        - cell "79.300000" [ref=e2700]
+        - cell "1166.4" [ref=e2701]
+        - cell "79.310000" [ref=e2702]
+        - cell "92.8" [ref=e2703]
+        - cell "79.23572301" [ref=e2704]
+        - cell "79.21987587" [ref=e2705]
+        - cell "79.25157015" [ref=e2706]
+        - cell "79.31000000" [ref=e2707]
+        - cell "79.32000000" [ref=e2708]
+        - cell [ref=e2709]
+        - cell [ref=e2710]
+      - row "324 410757529 79.290000 552.5 79.300000 112.9 79.23572301 79.21987587 79.25157015 79.31000000 79.32000000" [ref=e2711]:
+        - cell "324" [ref=e2712]
+        - cell "410757529" [ref=e2713]
+        - cell "79.290000" [ref=e2714]
+        - cell "552.5" [ref=e2715]
+        - cell "79.300000" [ref=e2716]
+        - cell "112.9" [ref=e2717]
+        - cell "79.23572301" [ref=e2718]
+        - cell "79.21987587" [ref=e2719]
+        - cell "79.25157015" [ref=e2720]
+        - cell "79.31000000" [ref=e2721]
+        - cell "79.32000000" [ref=e2722]
+        - cell [ref=e2723]
+        - cell [ref=e2724]
+      - row [ref=e2725]:
+        - cell [ref=e2726]
+  - table [ref=e2730]:
+    - row "Charting by TradingView" [ref=e2731]:
+      - cell
+      - cell "Charting by TradingView" [ref=e2732]:
+        - link "Charting by TradingView" [ref=e2736] [cursor=pointer]:
+          - /url: https://www.tradingview.com/?utm_medium=lwc-link&utm_campaign=lwc-chart&utm_source=localhost/
+          - img [ref=e2737]
+      - cell [ref=e2741]
+    - row [ref=e2745]:
+      - cell
+      - cell [ref=e2746]
+      - cell [ref=e2750]
+  - generic [ref=e2754]:
+    - generic [ref=e2755]:
+      - combobox [ref=e2756]:
+        - option "All tags" [selected]
+        - option "FAILED OWN TRADE"
+        - option "FAILED PUBLIC TRADE"
+        - option "POOL PRICE CHANGE"
+        - option "POOL PRICE FETCH"
+        - option "SEND ASTRALANE CANCEL"
+        - option "SEND ASTRALANE TRANSACTION"
+        - option "SEND JITO TRANSACTION"
+        - option "SEND RPC TRANSACTION"
+        - option "STRATEGY CANCEL ORDER"
+        - option "STRATEGY PLACEMENT CHECK"
+        - option "STRATEGY SEES OWN TRADE"
+        - option "STRATEGY SEND ORDER"
+        - option "SWAP INFO"
+      - textbox "Search messages..." [ref=e2757]
+      - generic [ref=e2758]: 115 / 115
+    - table [ref=e2760]:
+      - rowgroup [ref=e2761]:
+        - row "Time Tag Level Message" [ref=e2762]:
+          - columnheader "Time" [ref=e2763]
+          - columnheader "Tag" [ref=e2764]
+          - columnheader "Level" [ref=e2765]
+          - columnheader "Message" [ref=e2766]
+      - rowgroup [ref=e2767]:
+        - 'row "173 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.29568973719911, new_price=79.28582220161896, slot=410757497 | {''update_source'': ''geyser'', ''old_price'': 79.29568973719911, ''new_price'': 79.28582220161896, ''slot'': 410757497}" [ref=e2768]':
+          - cell "173" [ref=e2769]
+          - cell "POOL PRICE FETCH" [ref=e2770]
+          - cell "GENERAL" [ref=e2771]
+          - 'cell "Price updated via geyser: old_price=79.29568973719911, new_price=79.28582220161896, slot=410757497 | {''update_source'': ''geyser'', ''old_price'': 79.29568973719911, ''new_price'': 79.28582220161896, ''slot'': 410757497}" [ref=e2772]'
+        - row "173 POOL PRICE CHANGE MARKET_DATA price=79.28582220161896, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2773]:
+          - cell "173" [ref=e2774]
+          - cell "POOL PRICE CHANGE" [ref=e2775]
+          - cell "MARKET_DATA" [ref=e2776]
+          - cell "price=79.28582220161896, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2777]
+        - row "723 POOL PRICE CHANGE MARKET_DATA price=79.27068364235738, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2778]:
+          - cell "723" [ref=e2779]
+          - cell "POOL PRICE CHANGE" [ref=e2780]
+          - cell "MARKET_DATA" [ref=e2781]
+          - cell "price=79.27068364235738, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2782]
+        - row "724 POOL PRICE CHANGE MARKET_DATA price=79.27068364235738, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2783]:
+          - cell "724" [ref=e2784]
+          - cell "POOL PRICE CHANGE" [ref=e2785]
+          - cell "MARKET_DATA" [ref=e2786]
+          - cell "price=79.27068364235738, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2787]
+        - row "790 POOL PRICE CHANGE MARKET_DATA price=79.26591779858568, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2788]:
+          - cell "790" [ref=e2789]
+          - cell "POOL PRICE CHANGE" [ref=e2790]
+          - cell "MARKET_DATA" [ref=e2791]
+          - cell "price=79.26591779858568, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2792]
+        - row "790 POOL PRICE CHANGE MARKET_DATA price=79.26591779858568, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2793]:
+          - cell "790" [ref=e2794]
+          - cell "POOL PRICE CHANGE" [ref=e2795]
+          - cell "MARKET_DATA" [ref=e2796]
+          - cell "price=79.26591779858568, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2797]
+        - 'row "796 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.28582220161896, new_price=79.27575822631438, slot=410757523 | {''update_source'': ''geyser'', ''old_price'': 79.28582220161896, ''new_price'': 79.27575822631438, ''slot'': 410757523}" [ref=e2798]':
+          - cell "796" [ref=e2799]
+          - cell "POOL PRICE FETCH" [ref=e2800]
+          - cell "GENERAL" [ref=e2801]
+          - 'cell "Price updated via geyser: old_price=79.28582220161896, new_price=79.27575822631438, slot=410757523 | {''update_source'': ''geyser'', ''old_price'': 79.28582220161896, ''new_price'': 79.27575822631438, ''slot'': 410757523}" [ref=e2802]'
+        - row "796 POOL PRICE CHANGE MARKET_DATA price=79.27575822631438, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2803]:
+          - cell "796" [ref=e2804]
+          - cell "POOL PRICE CHANGE" [ref=e2805]
+          - cell "MARKET_DATA" [ref=e2806]
+          - cell "price=79.27575822631438, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2807]
+        - 'row "228 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.27575822631438, new_price=79.25923540358107, slot=410757527 | {''update_source'': ''geyser'', ''old_price'': 79.27575822631438, ''new_price'': 79.25923540358107, ''slot'': 410757527}" [ref=e2808]':
+          - cell "228" [ref=e2809]
+          - cell "POOL PRICE FETCH" [ref=e2810]
+          - cell "GENERAL" [ref=e2811]
+          - 'cell "Price updated via geyser: old_price=79.27575822631438, new_price=79.25923540358107, slot=410757527 | {''update_source'': ''geyser'', ''old_price'': 79.27575822631438, ''new_price'': 79.25923540358107, ''slot'': 410757527}" [ref=e2812]'
+        - row "228 POOL PRICE CHANGE MARKET_DATA price=79.25923540358107, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2813]:
+          - cell "228" [ref=e2814]
+          - cell "POOL PRICE CHANGE" [ref=e2815]
+          - cell "MARKET_DATA" [ref=e2816]
+          - cell "price=79.25923540358107, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2817]
+        - 'row "287 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.25923540358107, new_price=79.25824768068634, slot=410757527 | {''update_source'': ''geyser'', ''old_price'': 79.25923540358107, ''new_price'': 79.25824768068634, ''slot'': 410757527}" [ref=e2818]':
+          - cell "287" [ref=e2819]
+          - cell "POOL PRICE FETCH" [ref=e2820]
+          - cell "GENERAL" [ref=e2821]
+          - 'cell "Price updated via geyser: old_price=79.25923540358107, new_price=79.25824768068634, slot=410757527 | {''update_source'': ''geyser'', ''old_price'': 79.25923540358107, ''new_price'': 79.25824768068634, ''slot'': 410757527}" [ref=e2822]'
+        - row "287 POOL PRICE CHANGE MARKET_DATA price=79.25824768068634, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2823]:
+          - cell "287" [ref=e2824]
+          - cell "POOL PRICE CHANGE" [ref=e2825]
+          - cell "MARKET_DATA" [ref=e2826]
+          - cell "price=79.25824768068634, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2827]
+        - row "954 POOL PRICE CHANGE MARKET_DATA price=79.23691571246135, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2828]:
+          - cell "954" [ref=e2829]
+          - cell "POOL PRICE CHANGE" [ref=e2830]
+          - cell "MARKET_DATA" [ref=e2831]
+          - cell "price=79.23691571246135, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2832]
+        - row "954 POOL PRICE CHANGE MARKET_DATA price=79.23691571246135, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2833]:
+          - cell "954" [ref=e2834]
+          - cell "POOL PRICE CHANGE" [ref=e2835]
+          - cell "MARKET_DATA" [ref=e2836]
+          - cell "price=79.23691571246135, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2837]
+        - 'row "248 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.25824768068634, new_price=79.23701827329782, slot=410757529 | {''update_source'': ''geyser'', ''old_price'': 79.25824768068634, ''new_price'': 79.23701827329782, ''slot'': 410757529}" [ref=e2838]':
+          - cell "248" [ref=e2839]
+          - cell "POOL PRICE FETCH" [ref=e2840]
+          - cell "GENERAL" [ref=e2841]
+          - 'cell "Price updated via geyser: old_price=79.25824768068634, new_price=79.23701827329782, slot=410757529 | {''update_source'': ''geyser'', ''old_price'': 79.25824768068634, ''new_price'': 79.23701827329782, ''slot'': 410757529}" [ref=e2842]'
+        - row "248 POOL PRICE CHANGE MARKET_DATA price=79.23701827329782, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2843]:
+          - cell "248" [ref=e2844]
+          - cell "POOL PRICE CHANGE" [ref=e2845]
+          - cell "MARKET_DATA" [ref=e2846]
+          - cell "price=79.23701827329782, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2847]
+        - row "681 POOL PRICE CHANGE MARKET_DATA price=79.18887782692309, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2848]:
+          - cell "681" [ref=e2849]
+          - cell "POOL PRICE CHANGE" [ref=e2850]
+          - cell "MARKET_DATA" [ref=e2851]
+          - cell "price=79.18887782692309, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2852]
+        - row "681 POOL PRICE CHANGE MARKET_DATA price=79.18887782692309, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2853]:
+          - cell "681" [ref=e2854]
+          - cell "POOL PRICE CHANGE" [ref=e2855]
+          - cell "MARKET_DATA" [ref=e2856]
+          - cell "price=79.18887782692309, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2857]
+        - row "738 POOL PRICE CHANGE MARKET_DATA price=79.20838444464314, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2858]:
+          - cell "738" [ref=e2859]
+          - cell "POOL PRICE CHANGE" [ref=e2860]
+          - cell "MARKET_DATA" [ref=e2861]
+          - cell "price=79.20838444464314, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2862]
+        - row "738 POOL PRICE CHANGE MARKET_DATA price=79.20838444464314, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2863]:
+          - cell "738" [ref=e2864]
+          - cell "POOL PRICE CHANGE" [ref=e2865]
+          - cell "MARKET_DATA" [ref=e2866]
+          - cell "price=79.20838444464314, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2867]
+        - row "741 POOL PRICE CHANGE MARKET_DATA price=79.20872848226911, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2868]:
+          - cell "741" [ref=e2869]
+          - cell "POOL PRICE CHANGE" [ref=e2870]
+          - cell "MARKET_DATA" [ref=e2871]
+          - cell "price=79.20872848226911, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2872]
+        - row "741 POOL PRICE CHANGE MARKET_DATA price=79.20872848226911, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2873]:
+          - cell "741" [ref=e2874]
+          - cell "POOL PRICE CHANGE" [ref=e2875]
+          - cell "MARKET_DATA" [ref=e2876]
+          - cell "price=79.20872848226911, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2877]
+        - row "242 POOL PRICE CHANGE MARKET_DATA price=79.22608524471234, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2878]:
+          - cell "242" [ref=e2879]
+          - cell "POOL PRICE CHANGE" [ref=e2880]
+          - cell "MARKET_DATA" [ref=e2881]
+          - cell "price=79.22608524471234, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2882]
+        - row "242 POOL PRICE CHANGE MARKET_DATA price=79.22608524471234, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2883]:
+          - cell "242" [ref=e2884]
+          - cell "POOL PRICE CHANGE" [ref=e2885]
+          - cell "MARKET_DATA" [ref=e2886]
+          - cell "price=79.22608524471234, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2887]
+        - row "815 POOL PRICE CHANGE MARKET_DATA price=79.23572300985371, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2888]:
+          - cell "815" [ref=e2889]
+          - cell "POOL PRICE CHANGE" [ref=e2890]
+          - cell "MARKET_DATA" [ref=e2891]
+          - cell "price=79.23572300985371, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2892]
+        - row "815 POOL PRICE CHANGE MARKET_DATA price=79.23572300985371, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2893]:
+          - cell "815" [ref=e2894]
+          - cell "POOL PRICE CHANGE" [ref=e2895]
+          - cell "MARKET_DATA" [ref=e2896]
+          - cell "price=79.23572300985371, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2897]
+        - row [ref=e2898]:
+          - cell "298" [ref=e2899]
+          - cell "STRATEGY SEND ORDER" [ref=e2900]
+          - cell "STRATEGY" [ref=e2901]
+          - cell [ref=e2902]
+        - row [ref=e2903]:
+          - cell "299" [ref=e2904]
+          - cell "STRATEGY SEND ORDER" [ref=e2905]
+          - cell "STRATEGY" [ref=e2906]
+          - cell [ref=e2907]
+        - row [ref=e2908]:
+          - cell "299" [ref=e2909]
+          - cell "STRATEGY SEND ORDER" [ref=e2910]
+          - cell "STRATEGY" [ref=e2911]
+          - cell [ref=e2912]
+        - 'row "300 SEND RPC TRANSACTION GENERAL BID 3.4785@79.278276 | {''txid'': ''29P5Psbdd3nMnaLXvQ5cWwNKZRExgk2mXgmDiv11XNkx4MkbVFDDXvJbYBA18DqWPXz3utUcdFSKE9tvnf5ejuFh'', ''cid'': ''R_44b2dc6a-80af-4a06-9762-b298789c8c76'', ''main_market_update_id'': 28557348935}" [ref=e2913]':
+          - cell "300" [ref=e2914]
+          - cell "SEND RPC TRANSACTION" [ref=e2915]
+          - cell "GENERAL" [ref=e2916]
+          - 'cell "BID 3.4785@79.278276 | {''txid'': ''29P5Psbdd3nMnaLXvQ5cWwNKZRExgk2mXgmDiv11XNkx4MkbVFDDXvJbYBA18DqWPXz3utUcdFSKE9tvnf5ejuFh'', ''cid'': ''R_44b2dc6a-80af-4a06-9762-b298789c8c76'', ''main_market_update_id'': 28557348935}" [ref=e2917]'
+        - 'row "301 SEND JITO TRANSACTION GENERAL BID 3.4785@79.278276 | {''cid'': ''J_44b2dc6a-80af-4a06-9762-b298789c8c76'', ''main_market_update_id'': 28557348935, ''jito_tip_lamports'': 5896, ''endpoint'': ''https://amsterdam.mainnet.block-engine.jito.wtf/api/v1/transactions''}" [ref=e2918]':
+          - cell "301" [ref=e2919]
+          - cell "SEND JITO TRANSACTION" [ref=e2920]
+          - cell "GENERAL" [ref=e2921]
+          - 'cell "BID 3.4785@79.278276 | {''cid'': ''J_44b2dc6a-80af-4a06-9762-b298789c8c76'', ''main_market_update_id'': 28557348935, ''jito_tip_lamports'': 5896, ''endpoint'': ''https://amsterdam.mainnet.block-engine.jito.wtf/api/v1/transactions''}" [ref=e2922]'
+        - 'row "302 SEND ASTRALANE TRANSACTION GENERAL BID 3.4785@79.278276 | {''txid'': ''5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR'', ''cid'': ''A_44b2dc6a-80af-4a06-9762-b298789c8c76'', ''main_market_update_id'': 28557348935, ''tip_lamports'': 100000}" [ref=e2923]':
+          - cell "302" [ref=e2924]
+          - cell "SEND ASTRALANE TRANSACTION" [ref=e2925]
+          - cell "GENERAL" [ref=e2926]
+          - 'cell "BID 3.4785@79.278276 | {''txid'': ''5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR'', ''cid'': ''A_44b2dc6a-80af-4a06-9762-b298789c8c76'', ''main_market_update_id'': 28557348935, ''tip_lamports'': 100000}" [ref=e2927]'
+        - 'row "302 SWAP INFO GENERAL Submitting transaction to Astralane: http://ams.gateway.astralane.io/iris?api-key=1fineCbWsnJ3T3RWuRL3kD0ldIOMyIpJe0LFNbUM00lvFSQXgtZNXPH4XRLMgtVi" [ref=e2928]':
+          - cell "302" [ref=e2929]
+          - cell "SWAP INFO" [ref=e2930]
+          - cell "GENERAL" [ref=e2931]
+          - 'cell "Submitting transaction to Astralane: http://ams.gateway.astralane.io/iris?api-key=1fineCbWsnJ3T3RWuRL3kD0ldIOMyIpJe0LFNbUM00lvFSQXgtZNXPH4XRLMgtVi" [ref=e2932]'
+        - 'row "306 SWAP INFO GENERAL Transaction signature | {''signature'': ''29P5Psbdd3nMnaLXvQ5cWwNKZRExgk2mXgmDiv11XNkx4MkbVFDDXvJbYBA18DqWPXz3utUcdFSKE9tvnf5ejuFh''}" [ref=e2933]':
+          - cell "306" [ref=e2934]
+          - cell "SWAP INFO" [ref=e2935]
+          - cell "GENERAL" [ref=e2936]
+          - 'cell "Transaction signature | {''signature'': ''29P5Psbdd3nMnaLXvQ5cWwNKZRExgk2mXgmDiv11XNkx4MkbVFDDXvJbYBA18DqWPXz3utUcdFSKE9tvnf5ejuFh''}" [ref=e2937]'
+        - 'row "309 SWAP INFO GENERAL Astralane transaction submitted successfully: 5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR" [ref=e2938]':
+          - cell "309" [ref=e2939]
+          - cell "SWAP INFO" [ref=e2940]
+          - cell "GENERAL" [ref=e2941]
+          - 'cell "Astralane transaction submitted successfully: 5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR" [ref=e2942]'
+        - 'row "311 SWAP INFO GENERAL Transaction signature | {''signature'': ''5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR''}" [ref=e2943]':
+          - cell "311" [ref=e2944]
+          - cell "SWAP INFO" [ref=e2945]
+          - cell "GENERAL" [ref=e2946]
+          - 'cell "Transaction signature | {''signature'': ''5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR''}" [ref=e2947]'
+        - 'row "312 SWAP INFO GENERAL Transaction signature | {''signature'': ''4KVcseukkZpxt6w4Liye71RbwnarEn4PQBg9MEDyPEi17Z9vo9u2BuUnvWq6BR7oJw9sa3GTEDvPchrbHYAfVNJL''}" [ref=e2948]':
+          - cell "312" [ref=e2949]
+          - cell "SWAP INFO" [ref=e2950]
+          - cell "GENERAL" [ref=e2951]
+          - 'cell "Transaction signature | {''signature'': ''4KVcseukkZpxt6w4Liye71RbwnarEn4PQBg9MEDyPEi17Z9vo9u2BuUnvWq6BR7oJw9sa3GTEDvPchrbHYAfVNJL''}" [ref=e2952]'
+        - row [ref=e2953]:
+          - cell "325" [ref=e2954]
+          - cell "STRATEGY CANCEL ORDER" [ref=e2955]
+          - cell "STRATEGY" [ref=e2956]
+          - cell [ref=e2957]
+        - 'row "325 SEND ASTRALANE CANCEL GENERAL BID 3.4785@79.278276 | {''txid'': ''3RR3h6Uds9zVwbBNRKtEk8GgAKus3P9KoEfzReEYv5pmnioFUYu1ZNWEF4dytaJcPPYu7CX718sshN5GeKhUVXpR'', ''cid'': ''A_44b2dc6a-80af-4a06-9762-b298789c8c76'', ''main_market_update_id'': 28557348935}" [ref=e2958]':
+          - cell "325" [ref=e2959]
+          - cell "SEND ASTRALANE CANCEL" [ref=e2960]
+          - cell "GENERAL" [ref=e2961]
+          - 'cell "BID 3.4785@79.278276 | {''txid'': ''3RR3h6Uds9zVwbBNRKtEk8GgAKus3P9KoEfzReEYv5pmnioFUYu1ZNWEF4dytaJcPPYu7CX718sshN5GeKhUVXpR'', ''cid'': ''A_44b2dc6a-80af-4a06-9762-b298789c8c76'', ''main_market_update_id'': 28557348935}" [ref=e2962]'
+        - 'row "333 STRATEGY PLACEMENT CHECK STRATEGY BID Failed before placement checks: FAIL_REINSERT_TIMEOUT, len(self._inflight_orders)=3 | {''side'': 0, ''place_check_result'': <PlaceCheckResult.FAIL_REINSERT_TIMEOUT: ''FAIL_REINSERT_TIMEOUT''>, ''inflight_orders'': 3}" [ref=e2963]':
+          - cell "333" [ref=e2964]
+          - cell "STRATEGY PLACEMENT CHECK" [ref=e2965]
+          - cell "STRATEGY" [ref=e2966]
+          - 'cell "BID Failed before placement checks: FAIL_REINSERT_TIMEOUT, len(self._inflight_orders)=3 | {''side'': 0, ''place_check_result'': <PlaceCheckResult.FAIL_REINSERT_TIMEOUT: ''FAIL_REINSERT_TIMEOUT''>, ''inflight_orders'': 3}" [ref=e2967]'
+        - row "633 POOL PRICE CHANGE MARKET_DATA price=79.23574094087479, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2968]:
+          - cell "633" [ref=e2969]
+          - cell "POOL PRICE CHANGE" [ref=e2970]
+          - cell "MARKET_DATA" [ref=e2971]
+          - cell "price=79.23574094087479, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2972]
+        - row "634 POOL PRICE CHANGE MARKET_DATA price=79.23574094087479, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2973]:
+          - cell "634" [ref=e2974]
+          - cell "POOL PRICE CHANGE" [ref=e2975]
+          - cell "MARKET_DATA" [ref=e2976]
+          - cell "price=79.23574094087479, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e2977]
+        - 'row "666 FAILED OWN TRADE GENERAL [Helius WS] Usd gas paid: 0.0004738473750000001, gas paid: 5.975e-06 | {''txid'': ''4KVcseukkZpxt6w4Liye71RbwnarEn4PQBg9MEDyPEi17Z9vo9u2BuUnvWq6BR7oJw9sa3GTEDvPchrbHYAfVNJL'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''CustomProgramError(0)'', ''slot'': 410757551}" [ref=e2978]':
+          - cell "666" [ref=e2979]
+          - cell "FAILED OWN TRADE" [ref=e2980]
+          - cell "GENERAL" [ref=e2981]
+          - 'cell "[Helius WS] Usd gas paid: 0.0004738473750000001, gas paid: 5.975e-06 | {''txid'': ''4KVcseukkZpxt6w4Liye71RbwnarEn4PQBg9MEDyPEi17Z9vo9u2BuUnvWq6BR7oJw9sa3GTEDvPchrbHYAfVNJL'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''CustomProgramError(0)'', ''slot'': 410757551}" [ref=e2982]'
+        - row [ref=e2983]:
+          - cell "666" [ref=e2984]
+          - cell "STRATEGY SEES OWN TRADE" [ref=e2985]
+          - cell "STRATEGY" [ref=e2986]
+          - cell [ref=e2987]
+        - 'row "669 FAILED OWN TRADE GENERAL [Helius WS] Usd gas paid: 0.0004738473750000001, gas paid: 5.975e-06 | {''txid'': ''29P5Psbdd3nMnaLXvQ5cWwNKZRExgk2mXgmDiv11XNkx4MkbVFDDXvJbYBA18DqWPXz3utUcdFSKE9tvnf5ejuFh'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''CustomProgramError(0)'', ''slot'': 410757551}" [ref=e2988]':
+          - cell "669" [ref=e2989]
+          - cell "FAILED OWN TRADE" [ref=e2990]
+          - cell "GENERAL" [ref=e2991]
+          - 'cell "[Helius WS] Usd gas paid: 0.0004738473750000001, gas paid: 5.975e-06 | {''txid'': ''29P5Psbdd3nMnaLXvQ5cWwNKZRExgk2mXgmDiv11XNkx4MkbVFDDXvJbYBA18DqWPXz3utUcdFSKE9tvnf5ejuFh'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''CustomProgramError(0)'', ''slot'': 410757551}" [ref=e2992]'
+        - row [ref=e2993]:
+          - cell "669" [ref=e2994]
+          - cell "STRATEGY SEES OWN TRADE" [ref=e2995]
+          - cell "STRATEGY" [ref=e2996]
+          - cell [ref=e2997]
+        - 'row "670 FAILED OWN TRADE GENERAL [Helius WS] Usd gas paid: 0.0004738473750000001, gas paid: 5.975e-06 | {''txid'': ''5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''CustomProgramError(0)'', ''slot'': 410757551}" [ref=e2998]':
+          - cell "670" [ref=e2999]
+          - cell "FAILED OWN TRADE" [ref=e3000]
+          - cell "GENERAL" [ref=e3001]
+          - 'cell "[Helius WS] Usd gas paid: 0.0004738473750000001, gas paid: 5.975e-06 | {''txid'': ''5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''CustomProgramError(0)'', ''slot'': 410757551}" [ref=e3002]'
+        - row [ref=e3003]:
+          - cell "670" [ref=e3004]
+          - cell "STRATEGY SEES OWN TRADE" [ref=e3005]
+          - cell "STRATEGY" [ref=e3006]
+          - cell [ref=e3007]
+        - row [ref=e3008]:
+          - cell "672" [ref=e3009]
+          - cell "STRATEGY SEND ORDER" [ref=e3010]
+          - cell "STRATEGY" [ref=e3011]
+          - cell [ref=e3012]
+        - row [ref=e3013]:
+          - cell "672" [ref=e3014]
+          - cell "STRATEGY SEND ORDER" [ref=e3015]
+          - cell "STRATEGY" [ref=e3016]
+          - cell [ref=e3017]
+        - row [ref=e3018]:
+          - cell "672" [ref=e3019]
+          - cell "STRATEGY SEND ORDER" [ref=e3020]
+          - cell "STRATEGY" [ref=e3021]
+          - cell [ref=e3022]
+        - 'row "674 SEND RPC TRANSACTION GENERAL BID 3.4785@79.278276 | {''txid'': ''5KSixzfxh7Kjf1eT1kR89xby4fLcAHjzhhvbk5ZX21v59kHNbQpaNaoN8ruYzV7jhpfhXqe1EjqRP93BRK6MfYXB'', ''cid'': ''R_ab02cb45-bd4b-4183-be4f-6655be3bf475'', ''main_market_update_id'': 28557350814}" [ref=e3023]':
+          - cell "674" [ref=e3024]
+          - cell "SEND RPC TRANSACTION" [ref=e3025]
+          - cell "GENERAL" [ref=e3026]
+          - 'cell "BID 3.4785@79.278276 | {''txid'': ''5KSixzfxh7Kjf1eT1kR89xby4fLcAHjzhhvbk5ZX21v59kHNbQpaNaoN8ruYzV7jhpfhXqe1EjqRP93BRK6MfYXB'', ''cid'': ''R_ab02cb45-bd4b-4183-be4f-6655be3bf475'', ''main_market_update_id'': 28557350814}" [ref=e3027]'
+        - 'row "675 SEND JITO TRANSACTION GENERAL BID 3.4785@79.278276 | {''cid'': ''J_ab02cb45-bd4b-4183-be4f-6655be3bf475'', ''main_market_update_id'': 28557350814, ''jito_tip_lamports'': 5896, ''endpoint'': ''https://amsterdam.mainnet.block-engine.jito.wtf/api/v1/transactions''}" [ref=e3028]':
+          - cell "675" [ref=e3029]
+          - cell "SEND JITO TRANSACTION" [ref=e3030]
+          - cell "GENERAL" [ref=e3031]
+          - 'cell "BID 3.4785@79.278276 | {''cid'': ''J_ab02cb45-bd4b-4183-be4f-6655be3bf475'', ''main_market_update_id'': 28557350814, ''jito_tip_lamports'': 5896, ''endpoint'': ''https://amsterdam.mainnet.block-engine.jito.wtf/api/v1/transactions''}" [ref=e3032]'
+        - 'row "676 SEND ASTRALANE TRANSACTION GENERAL BID 3.4785@79.278276 | {''txid'': ''V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79'', ''cid'': ''A_ab02cb45-bd4b-4183-be4f-6655be3bf475'', ''main_market_update_id'': 28557350814, ''tip_lamports'': 100000}" [ref=e3033]':
+          - cell "676" [ref=e3034]
+          - cell "SEND ASTRALANE TRANSACTION" [ref=e3035]
+          - cell "GENERAL" [ref=e3036]
+          - 'cell "BID 3.4785@79.278276 | {''txid'': ''V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79'', ''cid'': ''A_ab02cb45-bd4b-4183-be4f-6655be3bf475'', ''main_market_update_id'': 28557350814, ''tip_lamports'': 100000}" [ref=e3037]'
+        - 'row "676 SWAP INFO GENERAL Submitting transaction to Astralane: http://ams.gateway.astralane.io/iris?api-key=1fineCbWsnJ3T3RWuRL3kD0ldIOMyIpJe0LFNbUM00lvFSQXgtZNXPH4XRLMgtVi" [ref=e3038]':
+          - cell "676" [ref=e3039]
+          - cell "SWAP INFO" [ref=e3040]
+          - cell "GENERAL" [ref=e3041]
+          - 'cell "Submitting transaction to Astralane: http://ams.gateway.astralane.io/iris?api-key=1fineCbWsnJ3T3RWuRL3kD0ldIOMyIpJe0LFNbUM00lvFSQXgtZNXPH4XRLMgtVi" [ref=e3042]'
+        - 'row "683 SWAP INFO GENERAL Transaction signature | {''signature'': ''5KSixzfxh7Kjf1eT1kR89xby4fLcAHjzhhvbk5ZX21v59kHNbQpaNaoN8ruYzV7jhpfhXqe1EjqRP93BRK6MfYXB''}" [ref=e3043]':
+          - cell "683" [ref=e3044]
+          - cell "SWAP INFO" [ref=e3045]
+          - cell "GENERAL" [ref=e3046]
+          - 'cell "Transaction signature | {''signature'': ''5KSixzfxh7Kjf1eT1kR89xby4fLcAHjzhhvbk5ZX21v59kHNbQpaNaoN8ruYzV7jhpfhXqe1EjqRP93BRK6MfYXB''}" [ref=e3047]'
+        - 'row "685 SWAP INFO GENERAL Astralane transaction submitted successfully: V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79" [ref=e3048]':
+          - cell "685" [ref=e3049]
+          - cell "SWAP INFO" [ref=e3050]
+          - cell "GENERAL" [ref=e3051]
+          - 'cell "Astralane transaction submitted successfully: V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79" [ref=e3052]'
+        - 'row "687 SWAP INFO GENERAL Transaction signature | {''signature'': ''V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79''}" [ref=e3053]':
+          - cell "687" [ref=e3054]
+          - cell "SWAP INFO" [ref=e3055]
+          - cell "GENERAL" [ref=e3056]
+          - 'cell "Transaction signature | {''signature'': ''V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79''}" [ref=e3057]'
+        - 'row "689 SWAP INFO GENERAL Transaction signature | {''signature'': ''5qJWirsgLTuzTvJ3g7WZ9M3N8jxVYUkAguRstd77PWgZ9xy7FVr1anCtRBfrygKS75jNvmyM5XJ3ud89SwJgkiip''}" [ref=e3058]':
+          - cell "689" [ref=e3059]
+          - cell "SWAP INFO" [ref=e3060]
+          - cell "GENERAL" [ref=e3061]
+          - 'cell "Transaction signature | {''signature'': ''5qJWirsgLTuzTvJ3g7WZ9M3N8jxVYUkAguRstd77PWgZ9xy7FVr1anCtRBfrygKS75jNvmyM5XJ3ud89SwJgkiip''}" [ref=e3062]'
+        - row "689 POOL PRICE CHANGE MARKET_DATA price=79.2643390305417, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3063]:
+          - cell "689" [ref=e3064]
+          - cell "POOL PRICE CHANGE" [ref=e3065]
+          - cell "MARKET_DATA" [ref=e3066]
+          - cell "price=79.2643390305417, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3067]
+        - row "690 POOL PRICE CHANGE MARKET_DATA price=79.2643390305417, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3068]:
+          - cell "690" [ref=e3069]
+          - cell "POOL PRICE CHANGE" [ref=e3070]
+          - cell "MARKET_DATA" [ref=e3071]
+          - cell "price=79.2643390305417, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3072]
+        - 'row "703 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.23701827329782, new_price=79.28689430182362, slot=410757551 | {''update_source'': ''geyser'', ''old_price'': 79.23701827329782, ''new_price'': 79.28689430182362, ''slot'': 410757551}" [ref=e3073]':
+          - cell "703" [ref=e3074]
+          - cell "POOL PRICE FETCH" [ref=e3075]
+          - cell "GENERAL" [ref=e3076]
+          - 'cell "Price updated via geyser: old_price=79.23701827329782, new_price=79.28689430182362, slot=410757551 | {''update_source'': ''geyser'', ''old_price'': 79.23701827329782, ''new_price'': 79.28689430182362, ''slot'': 410757551}" [ref=e3077]'
+        - row "703 POOL PRICE CHANGE MARKET_DATA price=79.28689430182362, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3078]:
+          - cell "703" [ref=e3079]
+          - cell "POOL PRICE CHANGE" [ref=e3080]
+          - cell "MARKET_DATA" [ref=e3081]
+          - cell "price=79.28689430182362, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3082]
+        - 'row "704 FAILED PUBLIC TRADE GENERAL BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757551 TXID: 4KVcseukkZpxt6w4Liye71RbwnarEn4PQBg9MEDyPEi17Z9vo9u2BuUnvWq6BR7oJw9sa3GTEDvPchrbHYAfVNJL POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3083]':
+          - cell "704" [ref=e3084]
+          - cell "FAILED PUBLIC TRADE" [ref=e3085]
+          - cell "GENERAL" [ref=e3086]
+          - 'cell "BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757551 TXID: 4KVcseukkZpxt6w4Liye71RbwnarEn4PQBg9MEDyPEi17Z9vo9u2BuUnvWq6BR7oJw9sa3GTEDvPchrbHYAfVNJL POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3087]'
+        - 'row "705 FAILED PUBLIC TRADE GENERAL BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757551 TXID: 29P5Psbdd3nMnaLXvQ5cWwNKZRExgk2mXgmDiv11XNkx4MkbVFDDXvJbYBA18DqWPXz3utUcdFSKE9tvnf5ejuFh POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3088]':
+          - cell "705" [ref=e3089]
+          - cell "FAILED PUBLIC TRADE" [ref=e3090]
+          - cell "GENERAL" [ref=e3091]
+          - 'cell "BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757551 TXID: 29P5Psbdd3nMnaLXvQ5cWwNKZRExgk2mXgmDiv11XNkx4MkbVFDDXvJbYBA18DqWPXz3utUcdFSKE9tvnf5ejuFh POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3092]'
+        - 'row "706 FAILED PUBLIC TRADE GENERAL BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757551 TXID: 5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3093]':
+          - cell "706" [ref=e3094]
+          - cell "FAILED PUBLIC TRADE" [ref=e3095]
+          - cell "GENERAL" [ref=e3096]
+          - 'cell "BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757551 TXID: 5j9EBoxWaNL2MNzHdL2H7Eiop1UtqKPowxAyKwDjS1aU2hgRV4zsnToh9w6FGeBHCFabErx3YjQxVPLFhpXKhfkR POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3097]'
+        - row "982 POOL PRICE CHANGE MARKET_DATA price=79.27339797367121, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3098]:
+          - cell "982" [ref=e3099]
+          - cell "POOL PRICE CHANGE" [ref=e3100]
+          - cell "MARKET_DATA" [ref=e3101]
+          - cell "price=79.27339797367121, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3102]
+        - row "982 POOL PRICE CHANGE MARKET_DATA price=79.27339797367121, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3103]:
+          - cell "982" [ref=e3104]
+          - cell "POOL PRICE CHANGE" [ref=e3105]
+          - cell "MARKET_DATA" [ref=e3106]
+          - cell "price=79.27339797367121, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3107]
+        - row "998 POOL PRICE CHANGE MARKET_DATA price=79.28848197199176, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3108]:
+          - cell "998" [ref=e3109]
+          - cell "POOL PRICE CHANGE" [ref=e3110]
+          - cell "MARKET_DATA" [ref=e3111]
+          - cell "price=79.28848197199176, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3112]
+        - row "999 POOL PRICE CHANGE MARKET_DATA price=79.28848197199176, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3113]:
+          - cell "999" [ref=e3114]
+          - cell "POOL PRICE CHANGE" [ref=e3115]
+          - cell "MARKET_DATA" [ref=e3116]
+          - cell "price=79.28848197199176, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3117]
+        - 'row "829 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.28689430182362, new_price=79.2940809667686, slot=410757554 | {''update_source'': ''geyser'', ''old_price'': 79.28689430182362, ''new_price'': 79.2940809667686, ''slot'': 410757554}" [ref=e3118]':
+          - cell "829" [ref=e3119]
+          - cell "POOL PRICE FETCH" [ref=e3120]
+          - cell "GENERAL" [ref=e3121]
+          - 'cell "Price updated via geyser: old_price=79.28689430182362, new_price=79.2940809667686, slot=410757554 | {''update_source'': ''geyser'', ''old_price'': 79.28689430182362, ''new_price'': 79.2940809667686, ''slot'': 410757554}" [ref=e3122]'
+        - row "829 POOL PRICE CHANGE MARKET_DATA price=79.2940809667686, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3123]:
+          - cell "829" [ref=e3124]
+          - cell "POOL PRICE CHANGE" [ref=e3125]
+          - cell "MARKET_DATA" [ref=e3126]
+          - cell "price=79.2940809667686, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3127]
+        - 'row "871 FAILED OWN TRADE GENERAL [Helius WS] Usd gas paid: 0.000473907125, gas paid: 5.975e-06 | {''txid'': ''5qJWirsgLTuzTvJ3g7WZ9M3N8jxVYUkAguRstd77PWgZ9xy7FVr1anCtRBfrygKS75jNvmyM5XJ3ud89SwJgkiip'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''InvalidSqrtPriceLimitDirection'', ''slot'': 410757554}" [ref=e3128]':
+          - cell "871" [ref=e3129]
+          - cell "FAILED OWN TRADE" [ref=e3130]
+          - cell "GENERAL" [ref=e3131]
+          - 'cell "[Helius WS] Usd gas paid: 0.000473907125, gas paid: 5.975e-06 | {''txid'': ''5qJWirsgLTuzTvJ3g7WZ9M3N8jxVYUkAguRstd77PWgZ9xy7FVr1anCtRBfrygKS75jNvmyM5XJ3ud89SwJgkiip'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''InvalidSqrtPriceLimitDirection'', ''slot'': 410757554}" [ref=e3132]'
+        - row [ref=e3133]:
+          - cell "871" [ref=e3134]
+          - cell "STRATEGY SEES OWN TRADE" [ref=e3135]
+          - cell "STRATEGY" [ref=e3136]
+          - cell [ref=e3137]
+        - 'row "905 FAILED PUBLIC TRADE GENERAL BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757554 TXID: 5qJWirsgLTuzTvJ3g7WZ9M3N8jxVYUkAguRstd77PWgZ9xy7FVr1anCtRBfrygKS75jNvmyM5XJ3ud89SwJgkiip POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3138]':
+          - cell "905" [ref=e3139]
+          - cell "FAILED PUBLIC TRADE" [ref=e3140]
+          - cell "GENERAL" [ref=e3141]
+          - 'cell "BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757554 TXID: 5qJWirsgLTuzTvJ3g7WZ9M3N8jxVYUkAguRstd77PWgZ9xy7FVr1anCtRBfrygKS75jNvmyM5XJ3ud89SwJgkiip POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3142]'
+        - row "288 POOL PRICE CHANGE MARKET_DATA price=79.29382754746949, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3143]:
+          - cell "288" [ref=e3144]
+          - cell "POOL PRICE CHANGE" [ref=e3145]
+          - cell "MARKET_DATA" [ref=e3146]
+          - cell "price=79.29382754746949, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3147]
+        - row "288 POOL PRICE CHANGE MARKET_DATA price=79.29382754746949, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3148]:
+          - cell "288" [ref=e3149]
+          - cell "POOL PRICE CHANGE" [ref=e3150]
+          - cell "MARKET_DATA" [ref=e3151]
+          - cell "price=79.29382754746949, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3152]
+        - 'row "438 FAILED OWN TRADE GENERAL [Helius WS] Usd gas paid: 0.000473907125, gas paid: 5.975e-06 | {''txid'': ''5KSixzfxh7Kjf1eT1kR89xby4fLcAHjzhhvbk5ZX21v59kHNbQpaNaoN8ruYzV7jhpfhXqe1EjqRP93BRK6MfYXB'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''InvalidSqrtPriceLimitDirection'', ''slot'': 410757556}" [ref=e3153]':
+          - cell "438" [ref=e3154]
+          - cell "FAILED OWN TRADE" [ref=e3155]
+          - cell "GENERAL" [ref=e3156]
+          - 'cell "[Helius WS] Usd gas paid: 0.000473907125, gas paid: 5.975e-06 | {''txid'': ''5KSixzfxh7Kjf1eT1kR89xby4fLcAHjzhhvbk5ZX21v59kHNbQpaNaoN8ruYzV7jhpfhXqe1EjqRP93BRK6MfYXB'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''InvalidSqrtPriceLimitDirection'', ''slot'': 410757556}" [ref=e3157]'
+        - row [ref=e3158]:
+          - cell "438" [ref=e3159]
+          - cell "STRATEGY SEES OWN TRADE" [ref=e3160]
+          - cell "STRATEGY" [ref=e3161]
+          - cell [ref=e3162]
+        - 'row "441 FAILED OWN TRADE GENERAL [Helius WS] Usd gas paid: 0.000473907125, gas paid: 5.975e-06 | {''txid'': ''V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''InvalidSqrtPriceLimitDirection'', ''slot'': 410757556}" [ref=e3163]':
+          - cell "441" [ref=e3164]
+          - cell "FAILED OWN TRADE" [ref=e3165]
+          - cell "GENERAL" [ref=e3166]
+          - 'cell "[Helius WS] Usd gas paid: 0.000473907125, gas paid: 5.975e-06 | {''txid'': ''V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79'', ''cid'': None, ''coin_balance_changes'': {SOL: -5.975e-06}, ''error_reason'': ''InvalidSqrtPriceLimitDirection'', ''slot'': 410757556}" [ref=e3167]'
+        - row [ref=e3168]:
+          - cell "441" [ref=e3169]
+          - cell "STRATEGY SEES OWN TRADE" [ref=e3170]
+          - cell "STRATEGY" [ref=e3171]
+          - cell [ref=e3172]
+        - 'row "442 FAILED PUBLIC TRADE GENERAL BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757556 TXID: 5KSixzfxh7Kjf1eT1kR89xby4fLcAHjzhhvbk5ZX21v59kHNbQpaNaoN8ruYzV7jhpfhXqe1EjqRP93BRK6MfYXB POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3173]':
+          - cell "442" [ref=e3174]
+          - cell "FAILED PUBLIC TRADE" [ref=e3175]
+          - cell "GENERAL" [ref=e3176]
+          - 'cell "BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757556 TXID: 5KSixzfxh7Kjf1eT1kR89xby4fLcAHjzhhvbk5ZX21v59kHNbQpaNaoN8ruYzV7jhpfhXqe1EjqRP93BRK6MfYXB POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3177]'
+        - 'row "447 FAILED PUBLIC TRADE GENERAL BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757556 TXID: V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79 POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3178]':
+          - cell "447" [ref=e3179]
+          - cell "FAILED PUBLIC TRADE" [ref=e3180]
+          - cell "GENERAL" [ref=e3181]
+          - 'cell "BUY 3.4785 @ 7927.827599827511 USD VOL: 275.8972275 CU_LIMIT: 65000 CU_PRICE: 15000 TRADER: 8ZgAmj7fSo2eTcwidgg4uUYLZRXi8vyeFuywmA8FBQAv SLOT: 410757556 TXID: V1txURCwkfJgR9yhZXYkwtjwUobzWSWRxzBxmcY2YNodKQWbCn3wwgCsVaRtv4Mu2tJVE1qRAUtJXdhQhNrvT79 POOL_ADDRESS: FwewVm8u6tFPGewAyHmWAqad9hmF7mvqxK4mJ7iNqqGC" [ref=e3182]'
+        - 'row "937 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.2940809667686, new_price=79.30545517400597, slot=410757557 | {''update_source'': ''geyser'', ''old_price'': 79.2940809667686, ''new_price'': 79.30545517400597, ''slot'': 410757557}" [ref=e3183]':
+          - cell "937" [ref=e3184]
+          - cell "POOL PRICE FETCH" [ref=e3185]
+          - cell "GENERAL" [ref=e3186]
+          - 'cell "Price updated via geyser: old_price=79.2940809667686, new_price=79.30545517400597, slot=410757557 | {''update_source'': ''geyser'', ''old_price'': 79.2940809667686, ''new_price'': 79.30545517400597, ''slot'': 410757557}" [ref=e3187]'
+        - row "937 POOL PRICE CHANGE MARKET_DATA price=79.30545517400597, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3188]:
+          - cell "937" [ref=e3189]
+          - cell "POOL PRICE CHANGE" [ref=e3190]
+          - cell "MARKET_DATA" [ref=e3191]
+          - cell "price=79.30545517400597, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3192]
+        - row "160 POOL PRICE CHANGE MARKET_DATA price=79.29385947236612, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3193]:
+          - cell "160" [ref=e3194]
+          - cell "POOL PRICE CHANGE" [ref=e3195]
+          - cell "MARKET_DATA" [ref=e3196]
+          - cell "price=79.29385947236612, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3197]
+        - row "162 POOL PRICE CHANGE MARKET_DATA price=79.29385947236612, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3198]:
+          - cell "162" [ref=e3199]
+          - cell "POOL PRICE CHANGE" [ref=e3200]
+          - cell "MARKET_DATA" [ref=e3201]
+          - cell "price=79.29385947236612, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3202]
+        - row "098 POOL PRICE CHANGE MARKET_DATA price=79.29389127404899, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3203]:
+          - cell "098" [ref=e3204]
+          - cell "POOL PRICE CHANGE" [ref=e3205]
+          - cell "MARKET_DATA" [ref=e3206]
+          - cell "price=79.29389127404899, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3207]
+        - row "100 POOL PRICE CHANGE MARKET_DATA price=79.29389127404899, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3208]:
+          - cell "100" [ref=e3209]
+          - cell "POOL PRICE CHANGE" [ref=e3210]
+          - cell "MARKET_DATA" [ref=e3211]
+          - cell "price=79.29389127404899, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3212]
+        - row "165 POOL PRICE CHANGE MARKET_DATA price=79.30416296415945, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3213]:
+          - cell "165" [ref=e3214]
+          - cell "POOL PRICE CHANGE" [ref=e3215]
+          - cell "MARKET_DATA" [ref=e3216]
+          - cell "price=79.30416296415945, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3217]
+        - row "166 POOL PRICE CHANGE MARKET_DATA price=79.30416296415945, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3218]:
+          - cell "166" [ref=e3219]
+          - cell "POOL PRICE CHANGE" [ref=e3220]
+          - cell "MARKET_DATA" [ref=e3221]
+          - cell "price=79.30416296415945, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3222]
+        - row "319 POOL PRICE CHANGE MARKET_DATA price=79.3042609885895, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3223]:
+          - cell "319" [ref=e3224]
+          - cell "POOL PRICE CHANGE" [ref=e3225]
+          - cell "MARKET_DATA" [ref=e3226]
+          - cell "price=79.3042609885895, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3227]
+        - row "319 POOL PRICE CHANGE MARKET_DATA price=79.3042609885895, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3228]:
+          - cell "319" [ref=e3229]
+          - cell "POOL PRICE CHANGE" [ref=e3230]
+          - cell "MARKET_DATA" [ref=e3231]
+          - cell "price=79.3042609885895, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3232]
+        - row "406 POOL PRICE CHANGE MARKET_DATA price=79.3043387075879, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3233]:
+          - cell "406" [ref=e3234]
+          - cell "POOL PRICE CHANGE" [ref=e3235]
+          - cell "MARKET_DATA" [ref=e3236]
+          - cell "price=79.3043387075879, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3237]
+        - row "406 POOL PRICE CHANGE MARKET_DATA price=79.3043387075879, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3238]:
+          - cell "406" [ref=e3239]
+          - cell "POOL PRICE CHANGE" [ref=e3240]
+          - cell "MARKET_DATA" [ref=e3241]
+          - cell "price=79.3043387075879, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3242]
+        - row "435 POOL PRICE CHANGE MARKET_DATA price=79.30440890606866, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3243]:
+          - cell "435" [ref=e3244]
+          - cell "POOL PRICE CHANGE" [ref=e3245]
+          - cell "MARKET_DATA" [ref=e3246]
+          - cell "price=79.30440890606866, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3247]
+        - row "436 POOL PRICE CHANGE MARKET_DATA price=79.30440890606866, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3248]:
+          - cell "436" [ref=e3249]
+          - cell "POOL PRICE CHANGE" [ref=e3250]
+          - cell "MARKET_DATA" [ref=e3251]
+          - cell "price=79.30440890606866, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3252]
+        - row "693 POOL PRICE CHANGE MARKET_DATA price=79.3044768230423, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3253]:
+          - cell "693" [ref=e3254]
+          - cell "POOL PRICE CHANGE" [ref=e3255]
+          - cell "MARKET_DATA" [ref=e3256]
+          - cell "price=79.3044768230423, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3257]
+        - row "694 POOL PRICE CHANGE MARKET_DATA price=79.3044768230423, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3258]:
+          - cell "694" [ref=e3259]
+          - cell "POOL PRICE CHANGE" [ref=e3260]
+          - cell "MARKET_DATA" [ref=e3261]
+          - cell "price=79.3044768230423, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3262]
+        - row "375 POOL PRICE CHANGE MARKET_DATA price=79.30641548271318, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3263]:
+          - cell "375" [ref=e3264]
+          - cell "POOL PRICE CHANGE" [ref=e3265]
+          - cell "MARKET_DATA" [ref=e3266]
+          - cell "price=79.30641548271318, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3267]
+        - row "375 POOL PRICE CHANGE MARKET_DATA price=79.30641548271318, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3268]:
+          - cell "375" [ref=e3269]
+          - cell "POOL PRICE CHANGE" [ref=e3270]
+          - cell "MARKET_DATA" [ref=e3271]
+          - cell "price=79.30641548271318, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3272]
+        - row "417 POOL PRICE CHANGE MARKET_DATA price=79.30659666707075, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3273]:
+          - cell "417" [ref=e3274]
+          - cell "POOL PRICE CHANGE" [ref=e3275]
+          - cell "MARKET_DATA" [ref=e3276]
+          - cell "price=79.30659666707075, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3277]
+        - row "417 POOL PRICE CHANGE MARKET_DATA price=79.30659666707075, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3278]:
+          - cell "417" [ref=e3279]
+          - cell "POOL PRICE CHANGE" [ref=e3280]
+          - cell "MARKET_DATA" [ref=e3281]
+          - cell "price=79.30659666707075, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3282]
+        - row "460 POOL PRICE CHANGE MARKET_DATA price=79.3068065787769, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3283]:
+          - cell "460" [ref=e3284]
+          - cell "POOL PRICE CHANGE" [ref=e3285]
+          - cell "MARKET_DATA" [ref=e3286]
+          - cell "price=79.3068065787769, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3287]
+        - row "461 POOL PRICE CHANGE MARKET_DATA price=79.3068065787769, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3288]:
+          - cell "461" [ref=e3289]
+          - cell "POOL PRICE CHANGE" [ref=e3290]
+          - cell "MARKET_DATA" [ref=e3291]
+          - cell "price=79.3068065787769, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3292]
+        - 'row "849 POOL PRICE FETCH GENERAL Price updated via geyser: old_price=79.30545517400597, new_price=79.3209010327265, slot=410757596 | {''update_source'': ''geyser'', ''old_price'': 79.30545517400597, ''new_price'': 79.3209010327265, ''slot'': 410757596}" [ref=e3293]':
+          - cell "849" [ref=e3294]
+          - cell "POOL PRICE FETCH" [ref=e3295]
+          - cell "GENERAL" [ref=e3296]
+          - 'cell "Price updated via geyser: old_price=79.30545517400597, new_price=79.3209010327265, slot=410757596 | {''update_source'': ''geyser'', ''old_price'': 79.30545517400597, ''new_price'': 79.3209010327265, ''slot'': 410757596}" [ref=e3297]'
+        - row "849 POOL PRICE CHANGE MARKET_DATA price=79.3209010327265, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3298]:
+          - cell "849" [ref=e3299]
+          - cell "POOL PRICE CHANGE" [ref=e3300]
+          - cell "MARKET_DATA" [ref=e3301]
+          - cell "price=79.3209010327265, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3302]
+        - row "965 POOL PRICE CHANGE MARKET_DATA price=79.3259113109086, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3303]:
+          - cell "965" [ref=e3304]
+          - cell "POOL PRICE CHANGE" [ref=e3305]
+          - cell "MARKET_DATA" [ref=e3306]
+          - cell "price=79.3259113109086, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3307]
+        - row "965 POOL PRICE CHANGE MARKET_DATA price=79.3259113109086, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3308]:
+          - cell "965" [ref=e3309]
+          - cell "POOL PRICE CHANGE" [ref=e3310]
+          - cell "MARKET_DATA" [ref=e3311]
+          - cell "price=79.3259113109086, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3312]
+        - row "966 POOL PRICE CHANGE MARKET_DATA price=79.32616500024349, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3313]:
+          - cell "966" [ref=e3314]
+          - cell "POOL PRICE CHANGE" [ref=e3315]
+          - cell "MARKET_DATA" [ref=e3316]
+          - cell "price=79.32616500024349, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3317]
+        - row "966 POOL PRICE CHANGE MARKET_DATA price=79.32616500024349, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3318]:
+          - cell "966" [ref=e3319]
+          - cell "POOL PRICE CHANGE" [ref=e3320]
+          - cell "MARKET_DATA" [ref=e3321]
+          - cell "price=79.32616500024349, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3322]
+        - row "298 POOL PRICE CHANGE MARKET_DATA price=79.32670421739141, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3323]:
+          - cell "298" [ref=e3324]
+          - cell "POOL PRICE CHANGE" [ref=e3325]
+          - cell "MARKET_DATA" [ref=e3326]
+          - cell "price=79.32670421739141, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3327]
+        - row "298 POOL PRICE CHANGE MARKET_DATA price=79.32670421739141, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3328]:
+          - cell "298" [ref=e3329]
+          - cell "POOL PRICE CHANGE" [ref=e3330]
+          - cell "MARKET_DATA" [ref=e3331]
+          - cell "price=79.32670421739141, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3332]
+        - row "528 POOL PRICE CHANGE MARKET_DATA price=79.32585952802364, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3333]:
+          - cell "528" [ref=e3334]
+          - cell "POOL PRICE CHANGE" [ref=e3335]
+          - cell "MARKET_DATA" [ref=e3336]
+          - cell "price=79.32585952802364, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3337]
+        - row "528 POOL PRICE CHANGE MARKET_DATA price=79.32585952802364, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3338]:
+          - cell "528" [ref=e3339]
+          - cell "POOL PRICE CHANGE" [ref=e3340]
+          - cell "MARKET_DATA" [ref=e3341]
+          - cell "price=79.32585952802364, fixed_fee_rate=0.0002, variable_fee_rate=0.0" [ref=e3342]
