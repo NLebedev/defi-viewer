@@ -1,0 +1,27 @@
+frontend/src/components/RawLogPanel.tsx
+  5097c5f2dc51b7c6 1,27,29-40,42,47,85,92
+frontend/src/components/PricingTable.tsx
+  5097c5f2dc51b7c6 150,155,158,226,233
+backend/app/routers/pricing.py
+  5097c5f2dc51b7c6 320,322-323
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "62f21fedd3e8d0bccadbce797026157e3b67f6e1",
+  "prompts": {
+    "5097c5f2dc51b7c6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "502175c4-3ca4-4a57-b0cc-3a4016136d54",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Nick Lebedev",
+      "messages": [],
+      "total_additions": 30,
+      "total_deletions": 21,
+      "accepted_lines": 561,
+      "overriden_lines": 0
+    }
+  }
+}
