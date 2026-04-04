@@ -317,8 +317,10 @@ def get_pricing(
         mk = _market_key(ev["market"], ev["pair"])
         ev_type = ev["type"]
 
-        # For theo type, use a separate THEO market key
+        # For theo type, only show theos for the exact selected pair
         if ev_type == "theo":
+            if ev["pair"] != pair:
+                continue
             mk = f"THEO:{ev['pair']}"
             if mk not in market_keys2:
                 market_keys2[mk] = {

@@ -147,15 +147,15 @@ export function PricingTable({ rows, markets, loading, referenceTime, onRowClick
 
       <div ref={parentRef} style={{ overflow: 'auto', flex: 1, minHeight: 0 }}>
         <style>{`.pricing-row:hover { background: #1a2035 !important; }`}</style>
-        <table style={{ borderCollapse: 'collapse', fontSize: 11, tableLayout: 'fixed', width: (80 + 75 + 140 + visibleMarkets.length * subWidths.reduce((a, b) => a + b, 0)) }}>
+        <table style={{ borderCollapse: 'separate', borderSpacing: 0, fontSize: 11, tableLayout: 'fixed', width: (80 + 75 + 140 + visibleMarkets.length * subWidths.reduce((a, b) => a + b, 0)) }}>
           {/* Two-level header: market group + sub-columns */}
           <thead style={{ position: 'sticky', top: 0, zIndex: 2 }}>
             {/* Top header: Time, Slot, then market groups */}
             <tr>
-              <th rowSpan={2} style={{ ...styles.th, width: 80, minWidth: 80, borderRight: '1px solid #2d3548', position: 'sticky', left: 0, zIndex: 3, background: '#0d1117' }}>
+              <th rowSpan={2} style={{ ...styles.th, width: 80, minWidth: 80, position: 'sticky', left: 0, zIndex: 3, background: '#0d1117', borderRight: '1px solid #2d3548' }}>
                 {refMs != null ? 'Δ sec' : 'Time'}
               </th>
-              <th rowSpan={2} style={{ ...styles.th, width: 75, minWidth: 75, borderRight: '1px solid #2d3548', position: 'sticky', left: 80, zIndex: 3, background: '#0d1117' }}>
+              <th rowSpan={2} style={{ ...styles.th, width: 75, minWidth: 75, position: 'sticky', left: 80, zIndex: 3, background: '#0d1117', borderRight: '1px solid #2d3548', boxShadow: '2px 0 4px rgba(0,0,0,0.5)' }}>
                 Slot
               </th>
               <th rowSpan={2} style={{ ...styles.th, width: 140, minWidth: 140, borderRight: '1px solid #2d3548' }}>
@@ -223,14 +223,14 @@ export function PricingTable({ rows, markets, loading, referenceTime, onRowClick
                   onClick={() => onRowClick?.(row.timestamp)}
                 >
                   {/* Time */}
-                  <td style={{ ...styles.td, width: 80, minWidth: 80, maxWidth: 80, borderRight: '1px solid #1a1f2e', overflow: 'hidden', position: 'sticky', left: 0, zIndex: 1, background: isSelected ? '#1e2a45' : '#0a0e17' }}>
+                  <td style={{ ...styles.td, width: 80, minWidth: 80, maxWidth: 80, overflow: 'hidden', position: 'sticky', left: 0, zIndex: 1, background: isSelected ? '#1e2a45' : '#0a0e17', borderRight: '1px solid #1a1f2e' }}>
                     {refMs != null
                       ? (() => { const d = (new Date(row.timestamp).getTime() - refMs) / 1000; return `${d >= 0 ? '+' : ''}${d.toFixed(3)}`; })()
                       : new Date(row.timestamp).toLocaleTimeString('en-GB', { hour12: false, fractionalSecondDigits: 3 as any })
                     }
                   </td>
                   {/* Slot */}
-                  <td style={{ ...styles.td, width: 75, minWidth: 75, maxWidth: 75, borderRight: '1px solid #1a1f2e', overflow: 'hidden', position: 'sticky', left: 80, zIndex: 1, background: isSelected ? '#1e2a45' : '#0a0e17' }}>
+                  <td style={{ ...styles.td, width: 75, minWidth: 75, maxWidth: 75, overflow: 'hidden', position: 'sticky', left: 80, zIndex: 1, background: isSelected ? '#1e2a45' : '#0a0e17', borderRight: '1px solid #1a1f2e', boxShadow: '2px 0 4px rgba(0,0,0,0.5)' }}>
                     {row.slot ?? ''}
                   </td>
                   {/* Tag */}

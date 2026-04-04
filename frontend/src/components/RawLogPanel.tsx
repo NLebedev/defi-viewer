@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import type { LogEntry } from '../types';
 
 interface Props {
@@ -24,20 +24,27 @@ export function RawLogPanel({ logs, loading, selectedTimestamp, onLogClick, refe
     return true;
   });
 
-  // Find logs closest to the selected pricing row timestamp
+  // Find the log closest to the selected pricing row timestamp
   const selectedMs = selectedTimestamp ? new Date(selectedTimestamp).getTime() : null;
-  const isSelected = (log: LogEntry) => {
-    if (!selectedMs) return false;
-    const logMs = new Date(log.timestamp).getTime();
-    return Math.abs(logMs - selectedMs) < 2; // within 2ms
-  };
+  const closestLogIdx = useMemo(() => {
+    if (selectedMs == null || filtered.length === 0) return -1;
+    let bestIdx = 0;
+    let bestDiff = Infinity;
+    for (let i = 0; i < filtered.length; i++) {
+      const diff = Math.abs(new Date(filtered[i].timestamp).getTime() - selectedMs);
+      if (diff < bestDiff) { bestDiff = diff; bestIdx = i; }
+    }
+    return bestDiff < 500 ? bestIdx : -1; // within 500ms
+  }, [selectedMs, filtered]);
 
-  // Scroll to first highlighted log when selection changes
+  const isSelected = (_log: LogEntry, idx: number) => idx === closestLogIdx;
+
+  // Scroll to highlighted log when selection changes
   useEffect(() => {
     if (highlightRef.current) {
       highlightRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
-  }, [selectedTimestamp]);
+  }, [selectedTimestamp, closestLogIdx]);
 
   if (loading) return <div style={{ padding: 16, color: '#8892a4' }}>Loading logs...</div>;
 
@@ -75,14 +82,14 @@ export function RawLogPanel({ logs, loading, selectedTimestamp, onLogClick, refe
           </thead>
           <tbody>
             {filtered.map((log, i) => {
-              const highlighted = isSelected(log);
+              const highlighted = isSelected(log, i);
               const setRef = highlighted && !firstHighlightSet;
               if (setRef) firstHighlightSet = true;
               return (
                 <tr
                   key={i}
                   ref={setRef ? highlightRef : undefined}
-                  style={{ background: highlighted ? '#1e2a45' : undefined, cursor: onLogClick ? 'pointer' : undefined }}
+                  style={{ background: highlighted ? '#1e2a45' : undefined }}
                   onClick={() => onLogClick?.(log.timestamp)}
                 >
                   <td style={styles.td}>
